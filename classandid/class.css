@@ -1,0 +1,15 @@
+body{
+    background-color: aqua;
+}
+.headings{   
+    color:black;  
+    font-family:cursive;  
+    text-align:right;
+    background-color: blueviolet;
+    }  
+    #hi{
+        color:black;  
+        font-family: cursive;  
+        background-color:papayawhip;
+        margin:100px;
+      }
