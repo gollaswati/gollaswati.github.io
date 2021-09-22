@@ -34,6 +34,7 @@ header{
        float:left;
        height: 300px;
        width: 80%;
+       overflow:scroll;
 
    }
    aside{
@@ -42,6 +43,7 @@ header{
        width:20%;
        background-color:rebeccapurple;
        text-align: center;
+       overflow: hidden;
    }
    footer{
        text-align: center;
