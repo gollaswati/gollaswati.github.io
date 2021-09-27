@@ -2,13 +2,72 @@
 <html>
 <head>
     <title>task1</title>
+    <style>
+        #star{
+            color: red;
+        }
+        #create{
+            border-radius:30%;
+            background-color: blue;
+            color: white;
+            width:10%;
+            padding:5px;
+            height: 20px;
+        }
+        p{
+            margin-top:2px;
+        }
+        h3{
+            margin-bottom: 2px;
+        }
+        #color{
+            width: 12.3%;
+            height: 10px;
+            background-color:#C9CCD5;
+            margin-top: 10px;
+
+        }
+    </style>
 </head>
 <body>
     <form>
         <p>This web page allows administrator to new user.users email address and user must be unique</p>
-        <h2>Emain address</h2>
-        <input type="email" size="40">
-        
+        <h3>Emain address</h3>
+        <input type="email" id="top" size="40">
+        <p>a valid email address.All emails from the system will be sent to this.the email address is not made public and will only be user will recive the certain notification</p>
+        <h3>username <span id="star">*</span></h3>
+        <input type="text" id="top" size="40">
+        <p>seviral special charcters are allowed, including spaces,period(.),hyphen(-)uderscore and @sign.</p>
+        <h3>password <span id="star">*</span></h3>
+        <input type="password" id="top"> <br>
+        <div id="color"></div>
+        <p>password strength:</p>
+        <h3>confirm password <span id="star">*</span></h3>
+        <input type="password" id="top">
+        <p>password match:</p>
+        <p>provide password for the new account in the both fields</p>
+        <h3>status</h3>
+        <input type="radio" id="top"> Blocked <br>
+        <input type="radio"> Active
+        <h3>roles</h3>
+        <input type="checkbox" id="top"> Authunticated user <br>
+        <input type="checkbox"> administrator   <br>
+        <input type="checkbox"> notify user of new account <br>
+        <h3>picture</h3>
+        <fieldset style="width:20%;"><input type="file"></fieldset>
+        <p>your vertuval face or picture <br> one file only <br>2MB limit.<br>allowed type:png,gif,jpg,jpeg </p>
+        <fieldset>
+            <h2>contact Settings</h2>
+            <input type="checkbox"> personal contact info <br>
+            allow all other users to contact you via personal contact whick keep your email address hidden .note that something previlage users such as a admistaror are  still able to contact
+        </fieldset> <br>
+        <fieldset>
+            <h2>LOCAL SETTINGS</h2>
+            <h3>time zone</h3>
+            <select style="width: 10%;"><option>abijaban</option></select><br> 
+            select the desired local time zone.and timings 
+        </fieldset> <br>
+    <button id="create">create new account</button>
     </form>
 </body>
 </html>
