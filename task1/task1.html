@@ -34,24 +34,24 @@
     <form>
         <p>This web page allows administrator to new user.users email address and user must be unique</p>
         <h3>Emain address</h3>
-        <input type="email"  size="40">
+        <input type="email" id="top" size="40">
         <p>a valid email address.All emails from the system will be sent to this.the email address is not made public and will only be user will recive the certain notification</p>
         <h3>username <span id="star">*</span></h3>
-        <input type="text" size="40">
+        <input type="text" id="top" size="40">
         <p>seviral special charcters are allowed, including spaces,period(.),hyphen(-)uderscore and @sign.</p>
         <h3>password <span id="star">*</span></h3>
-        <input type="password" > <br>
+        <input type="password" id="top"> <br>
         <div id="color"></div>
         <p>password strength:</p>
         <h3>confirm password <span id="star">*</span></h3>
-        <input type="password" >
+        <input type="password" id="top">
         <p>password match:</p>
         <p>provide password for the new account in the both fields</p>
         <h3>status</h3>
-        <input type="radio" > Blocked <br>
+        <input type="radio" id="top"> Blocked <br>
         <input type="radio"> Active
         <h3>roles</h3>
-        <input type="checkbox" > Authunticated user <br>
+        <input type="checkbox" id="top"> Authunticated user <br>
         <input type="checkbox"> administrator   <br>
         <input type="checkbox"> notify user of new account <br>
         <h3>picture</h3>
@@ -68,7 +68,7 @@
             <select style="width: 10%;"><option>abijaban</option></select><br> 
             select the desired local time zone.and timings 
         </fieldset> <br>
-    <button id="create">create a new account</button>
+    <button id="create"><b>create new account</b></button>
     </form>
 </body>
 </html>
