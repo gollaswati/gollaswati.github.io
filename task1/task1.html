@@ -25,6 +25,14 @@
             margin-top: 10px;
 
         }
+        b{
+            color: black;
+            font-size:20px;
+        }
+        abbr{
+            color: red;
+            size:40px;
+        }
     </style>
 </head>
 <body>
@@ -32,33 +40,33 @@
     <!-- USER LOG IN FORM -->
     <form>
         <p>This web page allows administrator to new user.users email address and user must be unique</p>
-        <h3>Email address</h3>
-        <input type="email"  size="40">
+        <label for="email"> <b>Email address</b></label> <br>
+        <input type="email"  id="email">
         <p>a valid email address.All emails from the system will be sent to this.the email address is not made public and will only be user will recive the certain notification</p>
-        <h3>username </h3>
-        <input type="text"  size="40"  required>
+        <label for="username"> <b>username</b> <abbr title="required">*</abbr></label> <br>
+        <input type="text"  id="username"  required>
         <p>seviral special charcters are allowed, including spaces,period(.),hyphen(-)uderscore and @sign.</p>
-        <h3>password </h3>
-        <input type="password" required> <br>
+        <label for="pwd"> <b>password </b><abbr title="required">*</abbr></label>   <br>
+        <input type="password" id="pwd" name="password"> <br>
         <div id="color"></div>
-        <p>password strength:</p>
-        <h3>confirm password </h3>
-        <input type="password" required >
+        <small>password strength:</small> <br>
+        <label for="password"> <b>confirm password </b><abbr title="required">*</abbr></label> <br>
+        <input type="password" id="password" name="password">
         <p>password match:</p>
         <p>provide password for the new account in the both fields</p>
         <h3>status</h3>
-        <input type="radio" name="status" value="Blocked"> Blocked <br>  
-        <input type="radio" name="status" value="Activat"> Active
+        <input type="radio" id="size-1"  name="status" value="Blocked"> <label for="size-1">Blocked</label><br>
+        <input type="radio"  id="size-2"   name="status" value="Activat"> <label for="size-2">Active</label>
         <h3>roles</h3>
-        <input type="checkbox" > Authunticated user <br>
-        <input type="checkbox"> administrator   <br>
-        <input type="checkbox"> notify user of new account <br>
-        <h3>picture</h3>
-        <fieldset style="width:20%;"><input type="file"></fieldset>
+        <input type="checkbox" id="for-1" name="authunticateduser" value="authunticateduser"> <label for="for-1">Authunticated user</label> <br>
+        <input type="checkbox" id="for-2" name="administator" value="administator"> <label for="for-2">administrator</label><br>
+        <input type="checkbox" id="for-3" name="new user" value="new user"> <label for="for-3">notify user of new account </label><br>
+        <label for="picture">picture</label>
+        <fieldset style="width:20%;"><input type="file" name="newfile" id="picture"></fieldset>
         <p>your vertuval face or picture <br> one file only <br>2MB limit.<br>allowed type:png,gif,jpg,jpeg </p>
         <fieldset>
             <h2>contact Settings</h2>
-            <input type="checkbox"> personal contact info <br>
+            <input type="checkbox" id="check" name="personal"> <label for="check"> personal contact info</label> <br>
             allow all other users to contact you via personal contact whick keep your email address hidden .note that something previlage users such as a admistaror are  still able to contact
         </fieldset> <br>
         <fieldset>
@@ -67,7 +75,7 @@
             <select style="width: 10%;"><option>abijaban</option></select><br> 
             select the desired local time zone.and timings 
         </fieldset> <br>
-    <button id="create"><b>create new account</b></button>
+    <button id="create" style="font-size:20px; color: white;">create new account</button>
     </form>
 </body>
 </html>
