@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        div
+        {
+        border: 1px solid; 
+        padding: 10px; 
+        }
+        #hvb 
+        { 
+            /* box-shadow: h-offset v-offset blur */ 
+            box-shadow: 5px 10px 10px; 
+        } 
+        #spr
+        {
+            /* box-shadow: h-offset v-offset blur spread */
+            box-shadow: 5px 10px 10px 10px; 
+        }
+        #col
+        {
+           /* box-shadow: h-offset v-offset blur spread color */ 
+            box-shadow: 5px 10px 10px 10px orange; 
+        }
+        #ins
+        {
+              /* box-shadow: h-offset v-offset blur spread color inset */ 
+            box-shadow: 5px 10px 10px 10px orange inset; 
+        }
+        #init
+        {
+              /* box-shadow: initial */ 
+           box-shadow: initial;
+        
+        }
+        #non
+        {              
+            /* box-shadow: none */ 
+            box-shadow: none;
+        }
+        #one{
+            text-shadow: 2px 3px blue;
+        }
+        #two{
+            text-shadow: 3px 3px 3px blueviolet;
+        }
+        #cap{
+            text-transform: capitalize;
+        }
+        #up{
+            text-transform: uppercase;
+        }
+        #low{
+            text-transform: lowercase;
+            background-color: #eee;
+        outline-width: 3px;
+        outline-style: double;
+        outline-color: brown;
+        outline-offset: 6px;
+        border: 3px solid Lightgreen;
+        padding: 5px 10px;
+        }
+    </style> 
+</head>
+<body>
+    <div id = "hvb"> 
+        <h1>It is a shadow box that has h-offset, v-offset and blur attributes.</h1> 
+   </div>
+<br><br> 
+    <div id = "spr"> 
+        <h2>It is a box that includes the spread attribute.</h2>
+    </div> 
+<br><br> 
+    <div id = "col"> 
+    <h2>It is a box that includes the color attribute.</h2>
+ </div> 
+<br><br> 
+ <div id = "ins"> 
+  <h2>It is a box that includes the inset attribute.</h2>
+</div> 
+<br><br> 
+<div id = "init"> 
+  <h2>It is a box that includes the initial attribute.</h2>
+</div> 
+<br><br>
+<div id = "non"> 
+  <h2>It is a box that includes the default attribute i.e. none.</h2>
+</div> <br>
+
+<h3  id="one">swathi</h3>
+<h3 id="two">swathi</h3>
+<p id="cap">hi all my name is swathi</p>
+<p id="up">hi all my name is swathi</p>
+<p id="low">Hi all My name is Swathi</p>
+
+</body>
+</html>
