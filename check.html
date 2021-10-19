@@ -14,10 +14,12 @@
             cursor: pointer;  
             font-size: 25px;  
                }
+               /* Hide the original checkbox    */
                .container input{
                    visibility: hidden;
                    cursor: pointer;
                }
+               /* creating a custom checkbox   */
                .mark{
                 position: absolute;  
                 top: 0;  
@@ -26,20 +28,27 @@
                 width: 25px;  
                 background-color: lightgray;  
                }
+         /*background color to be shown when hovering over checkbox */   
                .container:hover input ~ .mark{
                        background-color: coral;
                }
+         /*background color to be shown when the checkbox is checked */   
                .container input:checked ~ .mark{
                    background-color: cornflowerblue;
                }
+        /* checkmark to be shown in checkbox */   
+        /* It will not be shown when unchecked */   
                .mark:after {  
                 content: "";  
                 position: absolute;  
                 display: none;  
                }  
+         /* display checkmark when checked */   
                .container input:checked ~ .mark:after {  
                 display: block;  
               }  
+                /* creating a check to be the sign of   
+            checkmark */  
               .container .mark:after {  
               left: 9px;  
               top: 5px;  
