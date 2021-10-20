@@ -53,12 +53,20 @@
           .image4{
               float: right;
           }
-          div {
+          
+div {
   border: 3px solid #4CAF50;
   padding: 5px;
 }
-.img{
-    float: right;
+
+.img2 {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
    </style>  
 </head>
@@ -78,8 +86,8 @@
         Welcome to the javaTpoint.com. Here, you can find the best tutorials that are easy to read and help you to clear your concepts.  
       <p class="graph">hi alll</p>
       </div>
-      <div>
-        <img class="img" src="./download.jpg" alt="ben" >
+      <div class="clearfix">
+        <img class="img2" src="./nature.jpg" alt="nature" width="200" height="200">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
       </div>
 </body>
