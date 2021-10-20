@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          /* equal specificity */
+          h1{
+              background-color: blue;
+          }
+         h1{
+             background-color: pink;
+         }
+         /* id selector */
+         #id{
+             background-color: red;
+         }
+         h2#id{
+             background-color: blueviolet;
+         }
+         h2[id=id]{
+             background-color: burlywood;
+         }
+         /* class selector */
+         p{
+             background-color: cadetblue;
+         }
+         .select{
+             background-color: chartreuse;
+         }
+    </style>
+</head>
+<body>
+    <h1>equal specificity to all elements</h1>
+    <h2 id="id">id selector</h2>
+    <p class="select">class selector</p>
+    <div style="background-color: red;">inline styles</div>
+</body>
+</html>
