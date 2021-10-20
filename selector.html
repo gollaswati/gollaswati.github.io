@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            background-color: chartreuse;
+        }
+        div ~ h1{
+            background-color: chocolate;
+            width: calc(100% - 40%);
+            height: calc(200px - 100px);
+        }
+        div > h2{
+            background-color: cornflowerblue;
+            border: calc(10px - 5px) solid pink;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>first paragraph</p>
+        <p>first paragraph</p>
+        <p>first paragraph</p>
+        <div>
+            <p>first paragraph</p>
+        </div>
+        <p>first paragraph</p>
+    </div>
+    <p>first paragraph</p>
+    <div>
+        <h1>first heading</h1>
+    </div>
+    <h1>first heading</h1>
+    <div>
+        <h2>secong heading</h2>
+        <h2>secong heading</h2>
+        <h2>secong heading</h2>
+        <h2>secong heading</h2>
+        <h2>secong heading</h2>
+    </div>
+    <h2>secong heading</h2>
+</body>
+</html>

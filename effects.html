@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .keep{
+            text-align: center;
+            width: 100px;
+            color: green;
+            border: 2px solid pink;
+            word-break: keep-all;
+        }
+        .break{
+            text-align: center;
+            width: 100px;
+            color: green;
+            border: 2px solid pink;
+            word-break: break-all;
+        }
+        .wrap{
+            text-align: center;
+            width: 100px;
+            color: green;
+            border: 2px solid pink;
+            word-wrap: break-word;
+        }
+        .word{
+            text-align: center;
+            width: 100px;
+            color: green;
+            border: 2px solid pink;
+            word-wrap:normal;
+        }
+        .clip{
+            text-align: center;
+            width: 100px;
+            color: green;
+            border: 2px solid pink;
+            overflow: hidden;
+            height:40px;
+        }
+        .ecllips{
+            text-align: center;
+            width: 100px;
+            color: green;
+            border: 2px solid pink;
+            overflow: visible;
+            height: 40px;
+        }
+        .tb{
+            width: 200px;
+            writing-mode: horizontal-tb;
+            background-color: greenyellow;
+            border: 3px solid pink;
+        }
+        .lr{
+            width: 200px;
+            writing-mode: vertical-lr;
+            background-color: greenyellow;
+            border: 3px solid pink;
+        }
+        .rl{
+            width: 200px;
+            writing-mode:vertical-rl;
+            background-color: greenyellow;
+            border: 3px solid pink;
+        }
+    </style>
+</head>
+<body>
+    <!-- word break -->
+    <p class="keep">word break property</p>
+    <p class="break">word break property</p>
+    <!-- word wrap -->
+    <p class="wrap">word wrappppppppppp property</p>
+     <p class="word">word wrappppppppppp property</p>
+    <!-- text overflow -->
+    <p class="clip">text overflow property .this a overflow property</p>
+    <p class="ecllips">text overflow property . this is a overflow property</p>
+   <!-- writing mode -->
+   <p class="tb">we can write the data top to bottom</p>
+   <p class="lr">we can write the data left to right</p>
+   <p class="rl">we can write the data right to left</p>
+</body>
+</html>
