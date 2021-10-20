@@ -11,13 +11,31 @@
             clip: rect(0px,300px,100px,0px);
         }
         .image2{
-            position: absolute;
+
             clip-path: circle(20%);
+        }
+        .image3{
+            
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);  
+
+        }
+        .image4{
+            clip-path: circle(60% at 70% 20%);    
+        }
+        .image5{
+            clip-path: ellipse(50% 35%);  
+        }
+        .image6{
+            clip-path: inset(20% 25% 20% 10%);      
         }
     </style>
 </head>
 <body>
     <img src="./kid.jpg" alt="kid" class="image1">
     <img src="./nature.jpg" alt="nature" class="image2">
+    <img src="./nature.jpg" alt="nature" class="image3">
+    <img src="./nature.jpg" alt="nature" class="image4">
+    <img src="./nature.jpg" alt="nature" class="image5">
+    <img src="./nature.jpg" alt="nature" class="image6">
 </body>
 </html>
