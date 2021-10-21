@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      :root{
+          --bg-color:blue;
+          --txt-size:100px;
+      }
+      body{
+          background-color: var(--bg-color);
+          text-align: center;
+      }
+      h1{
+          color: var(--text-color,red);
+          font-size: var(--txt-size);
+      }
+        h2{
+            font-size: calc(var(--txt-size) - 20px);  
+            padding-top: var(--padding-top,500px);
+        }
+         p{
+             border: var(--border,10px solid pink);
+         }
+    </style>
+</head>
+<body>
+    <h1>this my first heading</h1>
+    <h2>this is my second heading</h2>
+    <p>this is paragraph</p>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           body{
+               background-color: thistle;
+           }
+           h1::after{
+               content: url(/download.jpg);
+           }
+           h1::before{
+               content: url(/download.jpg);
+           }
+           h2::after{
+               content:" yes";
+           }
+           h2::before{
+               content:"no ";
+           }
+           #para::before{
+             content: open-quote;
+           }
+           #para::after{
+               content: close-quote;
+           }
+           p::before{
+               content: open-quote;
+           }
+           P::after{
+               content: close-quote;
+           }
+           #graph::before{
+                 content:no-open-quote;
+           }
+           #graph::after{
+               content: no-close-quote;
+           }
+           a::after{
+               content: attr(href);
+           }
+    </style>
+</head>
+<body>
+    <h1>hello every one </h1>
+    <h2>hii im second heading</h2>
+    <p id="para">hi im paragraph</p>
+    <p>hi im just paragraph</p>
+    <p id="graph">hi im second paragraph</p>
+    <a href=https://www.javatpoint.com/css-content-property>link   </a>
+
+</body>
+</html>
