@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            border: 10px solid transparent;
+            border-image:url(./download.jpg) 70 round;
+            text-align: center;
+        }
+        .two{
+            border: 20px solid transparent;
+            border-image:url(./download.jpg) 70 / 10px 100px stretch;
+            text-align: center;
+        }
+        .three{
+            border: 30px solid transparent;
+            border-image:url(./download.jpg) 5 /10px 20px space;
+            text-align: center;
+        }
+        .four{
+            border: 20px solid transparent;
+            border-image:url(./download.jpg) 40 / 10px 40px repeat;
+            text-align: center;
+        }
+        .five{
+            border: 30px solid transparent;
+            border-image: linear-gradient(orange, yellow, green) 40 / 30px 10px  stretch;  
+        }
+        .six{
+            border: 40px solid transparent;
+            border-image: repeating-linear-gradient(50deg, blue, yellow, lightgreen 20px) 30 / 20px 30px round;  
+        }
+        .seven{
+            border: 30px solid transparent;
+            border-image: radial-gradient(circle, yellow, magenta, blue) 30 / 15px repeat;  
+        }
+        .eight{
+            border: 30px solid transparent;
+            border-image: radial-gradient(farthest-side, red, yellow, green) 30 / 15px round;  
+        }
+    </style>
+</head>
+<body>
+    <p class="one">hi everyone </p>
+    <p class="two">hi everyone </p>
+    <p class="three">hi everyone </p>
+    <p class="four">hi everyone </p>
+    <p class="five">hi everyone </p>
+    <p class="six">hi everyone </p>
+    <p class="seven">hi everyone </p>
+    <p class="eight">hi everyone </p>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>background</title>
+<style>
+   div{
+       width: 350px;
+       height: 175px;
+       background-image:  url(./kid.jpg);
+       background-repeat: no-repeat;
+       border: 8px dashed blue;
+       font-size: 25px;
+       text-align: center;
+
+        }
+#border{
+        background-origin: border-box;
+        padding: 20px;
+        }
+#padding{
+        background-origin: padding-box;
+        padding: 20px;
+        }
+#content{
+        background-origin: content-box;
+        padding: 20px;
+       }
+       p{
+           color: palevioletred;
+       }
+</style>
+</head>
+<body>
+<div id = "border">
+<p>this is boder-box</p>
+</div> <br>
+<div id = "padding">
+<p>this is padding box</p>
+</div><br>
+<div id = "content">
+<p>this is content box</p>
+</div>
+</body>
+</html>
+
+ 
