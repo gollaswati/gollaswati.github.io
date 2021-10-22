@@ -6,20 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div{
+        #one{
             width: 100px;
             height: 100px;
             background-color: palevioletred;
             transition: width 1s;
             animation-timing-function: cubic-bezier(0.9,0.5,1,1);
         }
-        div:hover{
+        #one:hover{
+            width: 300px;
+        }
+        #two{
+            width: 100px;
+            height: 100px;
+            background-color: peru;
+            transition-property: width;
+            transition-duration: 3s;
+            transition-delay: 3s;
+        }
+        #two:hover{
+            width: 300px;
+        }
+        img{
+            transition-property: width;
+        }
+        img:hover{
             width: 300px;
         }
     </style>
 </head>
 <body>
     <p>The cubic-bezier() Function</p>
-    <div></div>
+    <div  id="one"></div>
+    <div id="two"></div>
+    <img src="./kid.jpg" alt="kid">
 </body>
 </html>
