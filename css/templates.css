@@ -1,0 +1,244 @@
+
+header{
+    width: 100%;
+    background-image: url(/css/01.png);
+}
+
+.phone{
+    color: white;
+    padding-left: 300px;
+    overflow: auto;
+    padding-top: 100px;
+}
+#quote{
+    border: 2px solid black;
+    border-radius: 20px;
+    float: right;
+    text-transform: uppercase;
+    height: auto;
+    text-align: center;
+    margin-right: 200px;
+    width: 150px;
+    height: 30px;
+    padding-top: 10px;
+}
+#quote:hover{
+    background-color: violet;
+}
+.yammoe{
+    color: white;
+    font-size: large;
+    float: left;
+}
+.yamm{
+    padding-left: 300px;
+}
+.oe{
+    font-size: 30px;
+}
+ul {
+    list-style-type: none;
+    font-variant: small-caps;
+    font-size: 20px;
+    overflow: auto;
+    padding-right: 100px;
+  }
+  
+  li {
+    float: right;
+  }
+  li a {
+    display: block;
+    color:white;
+   font-size:20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  li a, .btn {
+    display: inline-block;
+    color:white;
+   font-size:20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  li a:hover , .drop:hover .btn{
+    color: white;
+  }
+  .drop-content {
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    min-width: 100px;
+    box-shadow: 5px 8px 10px 0px black;
+   }
+   .drop-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .drop-content a:hover {
+  background-color: gray;
+  color:white;
+  }
+  
+  .drop:hover .drop-content {
+    display: block;
+  }
+  li a, .bts {
+    display: inline-block;
+    color:white;
+   font-size:20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  li a:hover , .drops:hover .bts{
+    color: white;
+  }
+  .drops-content {
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    min-width: 100px;
+    box-shadow: 5px 8px 10px 0px black;
+   }
+   .drops-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .drops-content a:hover {
+  background-color: gray;
+  color:white;
+  }
+  
+  .drops:hover .drops-content {
+    display: block;
+  }
+  #hr{
+    width:90%;
+    margin-left:150px;
+}
+#para{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    line-height: 30px;
+    padding-bottom: 200px;
+}
+#one{
+    border: 2px solid black;
+    border-radius: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-right: 40px;
+}
+#one:hover{
+    background-color: violet;
+}
+#two{
+    border: 2px solid black;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#two:hover{
+background-color: violet;
+}
+.div{
+    margin-top: 100px;
+}
+.dui{
+    margin-left: 30px;
+}
+.pink{
+    background-color: whitesmoke;
+    border: 1px solid pink;
+    border-radius: 4px;
+    padding: 25px;
+    margin-top: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    line-height: 1.5;
+    margin: 20px;
+    line-height: 30px;
+}
+.blue{
+    max-width:19%;
+    display: block;
+    position: relative;
+}
+.yellow{
+    text-align: center !important;
+    font-size: 50px;
+}
+.color{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.green{
+    border: 2px solid black;
+    border-radius: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: violet;
+}
+.fruits{
+    background-image: url(/css/01.png); 
+    height: 700px;
+    width: 100%;
+}
+.banana{
+    width: 60%;
+    border: 2px solid black;
+    background-color: white;
+    border-radius:10px 0;
+    margin-left: 350px;
+    height: 500px;
+    margin-top: 100px;
+    padding-top: 100px; 
+}
+.apple{
+    text-align: center;
+}
+#abc{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 50px;
+    background-color: blanchedalmond;
+    margin-left: 30px;
+}
+
+
+
+
+
