@@ -123,7 +123,7 @@ ul {
   .drops:hover .drops-content {
     display: block;
   }
-  #hr{
+  .hr{
     width:90%;
     margin-left:150px;
 }
@@ -347,7 +347,6 @@ background-color: violet;
   }
   .m20{
       background-color: lightslategray;
-      border-radius: 0 0 10px;
       text-align: center;
       margin-left: 110px;
       width: 300px;
