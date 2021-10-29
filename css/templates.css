@@ -173,8 +173,8 @@ background-color: violet;
 }
 .pink{
     background-color: whitesmoke;
-    border: 1px solid pink;
-    border-radius: 4px;
+    border: 1px solid rgb(111, 118, 126);
+    border-radius:0 0 0 0 4px;
     padding: 25px;
     margin-top: 30px;
     text-align: center;
@@ -285,10 +285,11 @@ background-color: violet;
 }
 .ic-con{
     color: royalblue;
+
 }
 .icon{
   text-align: center;
-  background-color: salmon;
+  background-color: rgb(147, 178, 224);
   padding: 30px;
   border-radius: 50%;
 }
@@ -335,6 +336,8 @@ background-color: violet;
   }
   
   .s13 {
+    color: black;
+    font-size: 100px;
     position: absolute;
     left: 270px;
     top: 30px;
@@ -343,7 +346,8 @@ background-color: violet;
       display: flex;
   }
   .m20{
-      background-color: sandybrown;
+      background-color: lightslategray;
+      border-radius: 0 0 10px;
       text-align: center;
       margin-left: 110px;
       width: 300px;
@@ -388,10 +392,13 @@ background-color: violet;
     margin-top: 50px;
 
 }
+.t12{
+    background-image: url(./01.png);
+    width: 100%;
+    height: 700px;
+    margin-top:100px;
+}
 .a11{
-    background-image: url(/css/01.png);
-    width: 89%;
-    height: 500px;
     margin-top: 100px;
     display: inline-flex;
     padding-left: 200px;
@@ -426,7 +433,7 @@ background-color: violet;
     top: 15px;
 }
 .b11{
-    background-color: black;
+    background-color: rgb(161, 158, 158);
     height: 50px;
     width: 50px;
     margin: 10px;
