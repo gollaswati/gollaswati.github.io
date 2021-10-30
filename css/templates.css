@@ -508,18 +508,21 @@ background-color: violet;
     grid-template-columns: repeat(3,50px);
     grid-gap: 5px;
 }
-.e10{
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #87857E;
-    color: white;
-    margin: 5px;
+input{
+  padding: 15px;
+  border: 0px solid rgba(128, 128, 128, 0.3);
+  border-radius: 14px;
+  width: 300px;
+  background: rgba(128, 128, 128, 0.3);
+  display: flex;
 }
 .e11{
-    padding: 20px;
-    padding-left: 20px;
-    border-radius: 10px;
-    background-color: #389dc5;
+    background-color: #7789f2;
+    border: 2px solid #7789f2;
+    border-radius: 15px;
+    padding: 13px 25px;
+    font-size: 15px;
     color: white;
-    margin: 5px;
+    left: 16px;
+    margin-left: 5px;
 }
