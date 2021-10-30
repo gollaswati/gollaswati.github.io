@@ -43,7 +43,6 @@ ul {
     overflow: auto;
     padding-right: 100px;
   }
-  
   li {
     float: right;
   }
@@ -290,7 +289,7 @@ background-color: violet;
 .icon{
   text-align: center;
   background-color: rgb(147, 178, 224);
-  padding: 30px;
+  padding: 15px;
   border-radius: 50%;
 }
 .m1{
