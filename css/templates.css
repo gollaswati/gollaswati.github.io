@@ -164,6 +164,9 @@ ul {
 #two:hover{
 background-color: violet;
 }
+.span1{
+  padding-top: 10px;
+}
 .fruit{
   font-size: 40px;
   padding-top: 38px;
