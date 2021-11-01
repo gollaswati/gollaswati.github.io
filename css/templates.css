@@ -327,6 +327,20 @@ background-color: #7789f2;
   outline-color: rgb(192, 192, 192);  
   outline-offset: 10px;
 }
+.cir:hover{
+  background-color: #7789f2;
+}
+.cir1:hover{
+  background-color: #7789f2;
+}
+.cir2:hover{
+  background-color: #7789f2;
+}
+.fruit3:hover{
+  background-color: inherit;
+  color: black;
+  border: 1px solid black;
+}
 .image:hover .text{
       text-align: center;
       font-size: 60px;
