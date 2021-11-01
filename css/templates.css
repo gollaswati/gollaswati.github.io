@@ -327,6 +327,9 @@ background-color: #7789f2;
   outline-color: rgb(192, 192, 192);  
   outline-offset: 10px;
 }
+.text1{
+  padding-top: 230px;
+}
 .cir:hover{
   background-color: #7789f2;
 }
@@ -350,9 +353,11 @@ background-color: #7789f2;
 .image:hover{
   opacity: 0.8;
 }
+.king1{
+  padding-left: 100px;
+}
 .king{
   display: inline-flex;
-  text-align: center;
 }
 .blue{
   background-image: url(./01.png);
@@ -377,7 +382,7 @@ background-color: #7789f2;
 .blue1{
   text-align: center;
   position: absolute;
-  left:14.15%;
+  left:19.6%;
   top: 275%;
   width:249px;
   padding-top: 20px;
@@ -389,7 +394,7 @@ background-color: #7789f2;
 .blue2{
   text-align: center;
   position: absolute;
-  left: 30%;
+  left: 35.44%;
   top: 275%;
   width:249px;
   padding-top: 20px;
@@ -401,7 +406,7 @@ background-color: #7789f2;
 .blue3{
   text-align: center;
   position: absolute;
-  left: 45.8%;
+  left: 51.3%;
   top: 275%;
   width:249px;
   padding-top: 20px;
@@ -413,7 +418,7 @@ background-color: #7789f2;
 .blue4{
   text-align: center;
   position: absolute;
-  left: 61.6%;
+  left: 67.1%;
   top: 275%;
   width:249px;
   padding-top: 20px;
@@ -425,6 +430,10 @@ background-color: #7789f2;
 .hello{
   width: 100%;
   height: 700px;
+}
+.hello1{
+  width: 100%;
+  height: 500px;
 }
 .green{
   background-image: url(./01.png);
