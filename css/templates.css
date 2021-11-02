@@ -42,7 +42,6 @@ ul {
     list-style-type: none;
     font-variant: small-caps;
     font-size: 20px;
-    overflow: auto;
     padding-right: 100px;
   }
   li {
@@ -57,7 +56,7 @@ ul {
     text-decoration: none;
   }
   li a, .btn {
-    display: inline-block;
+    display: inline-flex;
     color:white;
    font-size:20px;
     text-align: center;
@@ -91,7 +90,7 @@ ul {
     display: block;
   }
   li a, .bts {
-    display: inline-block;
+    display: inline-flex;
     color:white;
    font-size:20px;
     text-align: center;
@@ -108,7 +107,7 @@ ul {
     min-width: 100px;
     box-shadow: 5px 8px 10px 0px black;
    }
-   .drops-content a {
+   .drops-content a{
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -116,12 +115,12 @@ ul {
     text-align: left;
   }
   
-  .drops-content a:hover {
+  .drops-content a:hover{
   background-color: gray;
   color:white;
   }
   
-  .drops:hover .drops-content {
+  .drops:hover .drops-content{
     display: block;
   }
   .hr{
@@ -184,8 +183,9 @@ background-color: #7789f2;
   box-shadow: 0 0 5px rgb(192, 192, 192);
 }
 .first{
-  padding-left: 350px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-left: 400px;
+  padding-bottom: 50px;
 }
 .second{
   display: inline-flex;
@@ -207,18 +207,15 @@ background-color: #7789f2;
   background-image:url(./01.png);
   opacity: 0.9;
   width: 100%;
-  height:800px;
+  height:700px; 
 }
 .pink{
   background-color:white;
-  position: relative;
-  left: 300px;
-  right: 300px;
-  top: 100px;
-  bottom: 50px;
-  width: 70%;
+  max-width: 60%;
   height: 600px;
+  padding-left: 40px;
   border-radius: 30px 0px;
+  margin: auto;
 }
 .turpos{
   text-align: center;
@@ -252,17 +249,16 @@ background-color: #7789f2;
   margin-top: 20px;
 }
 .circle{
-  float: left;
+  display: inline-flex;
 }
 .image{   
-  float: right; 
   border: 2px solid black;
   background-image: url(./01.png);
   width:450px;
-  position: relative;
-  top: 100px;
-  right: 60px;
   height: 300px;
+  padding: 15px;
+  margin-left: 50px;
+  margin-top: 50px;
   outline-width: 1px;  
   outline-style: solid;  
   outline-color: rgb(192, 192, 192);  
@@ -288,6 +284,9 @@ background-color: #7789f2;
 .image:hover{
   opacity: 0.8;
 }
+.king1{
+  padding-left: 350px;
+}
   .king{
     display:inline-flex;
   }
@@ -296,7 +295,7 @@ background-color: #7789f2;
   border: 0px solid gray;
   width: 250px;
   height: 250px;
-  margin-left:150px;
+  margin-left: 20px;
   margin-top: 20px;
 }
 .blue:hover{
@@ -321,12 +320,13 @@ background-color: #7789f2;
 .green{
   background-image: url(./01.png);
   width: 100%;
-  height: 600px;
+  height: 500px;
 }
 .zoom{
-  margin-left: 100px;
+  margin-left:150px;
   border-radius: 50%;
   margin-top: 100px;
+  opacity: 1;
 }
 .green1{
       padding-top: 40px;
@@ -335,19 +335,40 @@ background-color: #7789f2;
 }
 .green2{
     color: white;
-    margin-left: 70px;
+    margin-left: 10px;
     margin-top: 130px;
+}
+.green5{
+  color: white;
+  margin-left:10px;
+  margin-top: 130px;
 }
 .think{
   display: inline-flex;
-  margin-left: 200px;
+  margin-left: 300px;
+}
+.think1{
+ display: inline-flex;
+ margin-left: 10px;
 }
 .green3{
   border: 2px solid white;
   background-color: white;
   width: 500px;
   margin-top: 50px;
-  margin-left: 250px;
+  margin-left: 350px;
+  color: rgb(63, 63, 63);
+  text-align: center;
+  padding: 5px 10px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.green4{
+  border: 2px solid white;
+  background-color: white;
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 50px;
   color: rgb(63, 63, 63);
   text-align: center;
   padding: 5px 10px;
@@ -386,8 +407,8 @@ background-color: #7789f2;
     padding-bottom: 10px;
 }
 .a15{
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 30px;
+    padding-right: 100px;
     padding-bottom: 10px;
 }
 .b10{
