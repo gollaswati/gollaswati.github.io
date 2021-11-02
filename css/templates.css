@@ -290,6 +290,24 @@ background-color: #7789f2;
   .king{
     display:inline-flex;
   }
+  .ligula{
+    margin-top:270px;
+    padding-left: 5px;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .read{
+    width:150px;
+    margin-left: 30px;
+    font-size: 11px;
+    padding:20px 40px;
+    border-radius: 20px;
+    background-color: #7789f2;
+    border:1 px solid #7789f2;
+  }
+  .read:hover{
+    background-color: inherit;
+  }
 .blue{
   background-image: url(./01.png);
   border: 0px solid gray;
