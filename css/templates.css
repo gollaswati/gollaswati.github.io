@@ -351,6 +351,9 @@ background-color: #7789f2;
   .read:hover{
     background-color: inherit;
   }
+  .deo{
+    display: inline-flex;
+  }
 .blue{
   background-image: url(./01.png);
   border: 0px solid gray;
@@ -366,9 +369,9 @@ background-color: #7789f2;
   border: 1px solid rgb(190, 190, 190); 
   color: rgb(77, 77, 77);
   box-shadow: 0 0 2px rgb(192, 192, 192);
-  margin-top:250px;
   height:70px;
   text-align: center;
+  margin-top: 250px;
 }
 .hello{
   width: 100%;
@@ -523,4 +526,5 @@ input{
 }
 .z11{
   color: #7789f2;
+  text-decoration: none;
 }
