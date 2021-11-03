@@ -168,6 +168,10 @@ ul {
 #two:hover{
 background-color: #7789f2;
 }
+.new{
+  width: 100%;
+  height: 700px;
+}
 .fruit{
   font-size: 40px;
   padding-top: 38px;
@@ -208,17 +212,14 @@ background-color: #7789f2;
   background-image:url(./01.png);
   opacity: 0.9;
   width: 100%;
-  height:700px; 
+  height:800px; 
 }
 .pink{
   background-color:white;
   max-width: 60%;
   height: 600px;
-  padding-left: 40px;
-  border-radius: 30px 0px;
-  margin: 0 auto;
-  display: block;
-  border: 2px solid black;
+  margin: auto;
+  border-radius: 20px 0px;
 }
 .turpos{
   text-align: center;
@@ -230,8 +231,8 @@ background-color: #7789f2;
   margin-left: 30px;
 }
 .fa{
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 11px;
+  margin-top: 10px;
 }
 .color2{
   display:flex;
