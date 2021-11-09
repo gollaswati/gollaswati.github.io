@@ -10,7 +10,49 @@ h2 {
   font-family: sans-serif;
 }
 p {
-  font-size: 22px;
+  font-size: 28px;
   font-family: sans-serif;
-  line-height: 20px;
+  line-height: 1.5;
+}
+h3 {
+  text-align: center;
+  font-size: 29px;
+}
+li {
+  font-size: 28px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+footer p {
+  font-size: 30px;
+  color: aqua;
+}
+#java {
+  background-color: aquamarine;
+}
+.program {
+  background-color: beige;
+}
+aside {
+  border-top: 10px solid palevioletred;
+  border-bottom: 1px solid rgb(143, 143, 168);
+}
+li:first-child {
+  background-color: rebeccapurple;
+}
+li:last-child {
+  color: aqua;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  color: aqua;
+  text-decoration: underline double red;
+}
+#one {
+  color: bisque;
+}
+.two {
+  color: blueviolet;
 }
