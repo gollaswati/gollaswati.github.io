@@ -1,3 +1,7 @@
+body {
+  color: #f6f8;
+  background-color: antiquewhite;
+}
 h1 {
   color: aqua;
   font-size: 26px;
