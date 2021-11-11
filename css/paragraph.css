@@ -1,12 +1,12 @@
 body {
-  color: #f6f8;
+  color: brown;
 }
 .container {
   width: 900px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  background-color: yellow;
+  background-color: chartreuse;
 }
 h1 {
   color: aqua;
@@ -19,6 +19,14 @@ h2 {
   font-size: 40px;
   font-family: sans-serif;
   margin: 20px;
+  position: relative;
+  background-color: aquamarine;
+}
+h2::after {
+  content: "top";
+  background-color: aqua;
+  position: absolute;
+  left: 500px;
 }
 p {
   font-size: 28px;
@@ -39,7 +47,7 @@ li {
   display: inline;
 }
 img {
-  width: 100%;
+  width: 10%;
   height: auto;
 }
 #java {
@@ -70,4 +78,8 @@ a:hover {
 }
 .two {
   color: blueviolet;
+}
+/* floats */
+.javatpoint {
+  float: left;
 }
