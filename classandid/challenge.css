@@ -99,6 +99,8 @@ li {
   text-transform: uppercase;
   cursor: pointer;
   border-top: 4px solid black;
+  width: 100%;
+  padding: 10 px 15 px;
 }
 .add:hover {
   color: #000;
