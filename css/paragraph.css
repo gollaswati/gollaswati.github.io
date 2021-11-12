@@ -1,8 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   color: brown;
 }
 .container {
-  width: 900px;
+  width: 80%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -56,9 +61,17 @@ img {
 .program {
   background-color: beige;
 }
+article {
+  float: left;
+  width: 60%;
+}
 aside {
   border-top: 10px solid palevioletred;
   border-bottom: 1px solid rgb(143, 143, 168);
+  background-color: aliceblue;
+  float: right;
+  padding: 60px 100px;
+  width: 400px;
 }
 li:first-child {
   background-color: rebeccapurple;
@@ -81,5 +94,19 @@ a:hover {
 }
 /* floats */
 .javatpoint {
+  float: right;
+}
+nav {
   float: left;
+}
+.clear {
+  clear: both;
+}
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+footer {
+  clear: both;
 }
