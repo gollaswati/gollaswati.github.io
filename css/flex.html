@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .el {
+        /* defaults:
+       flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto; */
+        /* flex-basis: 200px; */
+        /* flex-shrink: 0; */
+        /* flex-grow: 1; */
+        /* flex: 1; */
+        flex: 0 0 200px;
+      }
+      .el--1 {
+        background-color: yellow;
+        align-self: flex-start;
+        /* flex-grow: 1; */
+      }
+      .el--2 {
+        background-color: green;
+        /* flex-grow: 2; */
+      }
+      .el--3 {
+        background-color: rosybrown;
+        height: 150px;
+      }
+      .el--4 {
+        background-color: pink;
+        align-self: stretch;
+        order: -1;
+      }
+      .el--5 {
+        background-color: red;
+        align-self: flex-start;
+        order: 1;
+      }
+      .el--6 {
+        background-color: gray;
+      }
+      .el--7 {
+        background-color: blue;
+      }
+      .container {
+        font-family: sans-serif;
+        background-color: #ddf;
+        font-size: 40px;
+        margin: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="el el--1">html</div>
+      <div class="el el--2">css</div>
+      <div class="el el--3">js</div>
+      <div class="el el--4">java</div>
+      <div class="el el--5">c</div>
+      <div class="el el--6">pyton</div>
+      <div class="el el--7">c++</div>
+    </div>
+  </body>
+</html>

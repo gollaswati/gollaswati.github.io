@@ -61,7 +61,7 @@ img {
 .program {
   background-color: beige;
 }
-article {
+/* article {
   float: left;
   width: 60%;
 }
@@ -72,7 +72,7 @@ aside {
   float: right;
   padding: 60px 100px;
   width: 400px;
-}
+} */
 li:first-child {
   background-color: rebeccapurple;
 }
@@ -96,7 +96,7 @@ a:hover {
 .javatpoint {
   float: right;
 }
-nav {
+/* nav {
   float: left;
 }
 .clear {
@@ -109,4 +109,40 @@ nav {
 }
 footer {
   clear: both;
+} */
+/* flexbox */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.related-post {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.realted-autor {
+  font-size: 15px;
+  font-weight: normal;
+}
+.related-link {
+  font-size: 15px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 100px;
+}
+.row {
+  display: flex;
+  gap: 75px;
+  margin-bottom: 60px;
+  align-items: flex-start;
+}
+aside {
+  flex: 0 0 300px;
+  margin-bottom: 30px;
+  border: 4px solid black;
+}
+article {
+  flex: 0 0 900px;
 }
