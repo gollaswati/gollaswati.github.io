@@ -39,8 +39,6 @@ body {
 
 /* PRODUCT INFORMATION */
 .product-info {
-  /*  (825 - 8 - 250 - 80) / 2  */
-  /*   width: 243px; */
   flex: 1;
   margin-top: 20px;
 }
