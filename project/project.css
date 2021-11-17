@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.header-text-box {
+  align-self: center;
+}
+
+.header-text {
+  margin-bottom: 30px;
+}
+
+/* .link {
+  color: blue;
+} */
+
+img {
+  width: 100%;
+}
+.image1 {
+  width: 300px;
+  height: 200px;
+}
+h1 {
+  margin-bottom: 24px;
+}
+
+header {
+  margin-bottom: 48px;
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+}
+
+/* section------1 */
+h2 {
+  margin-bottom: 38px;
+}
+
+.section1-grid-cols3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 70px;
+}
+
+.science {
+  margin-bottom: 20px;
+}
+
+.section1-text {
+  margin-bottom: 80px;
+}
+
+/* section-------2 */
+.section2-grid-cols2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 70px;
+}
+
+.section2-h2 {
+  margin-top: 40px;
+}
+
+.section2-author {
+  margin-top: 30px;
+}
+/* section3 */
+.head {
+  margin-top: 50px;
+}
+.section3-head {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.section3-subhead p {
+  line-height: 3;
+}
+.clear {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  margin-top: 50px;
+}
