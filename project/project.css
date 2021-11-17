@@ -7,6 +7,7 @@
 body {
   font-family: sans-serif;
   width: 100%;
+  color: rgb(36, 34, 34);
 }
 
 .container {
@@ -22,10 +23,23 @@ body {
   margin-bottom: 30px;
 }
 
-/* .link {
-  color: blue;
-} */
-
+.link {
+  color: white;
+  background-color: green;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 17px 10px;
+}
+.links {
+  color: white;
+  background-color: rgb(24, 82, 24);
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 8px 10px;
+  font-size: 12px;
+}
 img {
   width: 100%;
 }
@@ -33,8 +47,20 @@ img {
   width: 300px;
   height: 200px;
 }
+.image2 {
+  width: 400px;
+  height: 250px;
+}
+.icons {
+  color: aqua;
+  width: 32px;
+  height: auto;
+  margin-bottom: 16px;
+  margin-left: 60px;
+}
 h1 {
   margin-bottom: 24px;
+  line-height: 1.3;
 }
 
 header {
@@ -48,6 +74,7 @@ header {
 /* section------1 */
 h2 {
   margin-bottom: 38px;
+  font-family: sans-serif;
 }
 
 .section1-grid-cols3 {
@@ -69,6 +96,9 @@ h2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 70px;
+  background-color: green;
+  color: white;
+  padding: 20px;
 }
 
 .section2-h2 {
