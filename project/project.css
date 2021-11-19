@@ -7,7 +7,7 @@
 body {
   font-family: sans-serif;
   width: 100%;
-  color: rgb(36, 34, 34);
+  color: rgb(61, 54, 54);
 }
 
 .container {
@@ -51,6 +51,10 @@ img {
   width: 400px;
   height: 250px;
 }
+.image {
+  width: 900px;
+  height: 500px;
+}
 .icons {
   color: aqua;
   width: 32px;
@@ -66,9 +70,8 @@ h1 {
 header {
   margin-bottom: 48px;
   margin-top: 48px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 80px;
+  display: flex;
+  gap: 40px;
 }
 
 /* section------1 */
@@ -77,10 +80,9 @@ h2 {
   font-family: sans-serif;
 }
 
-.section1-grid-cols3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 70px;
+.section1 {
+  display: flex;
+  gap: 40px;
 }
 
 .science {
@@ -92,13 +94,13 @@ h2 {
 }
 
 /* section-------2 */
-.section2-grid-cols2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 70px;
+.section2 {
+  display: flex;
   background-color: green;
   color: white;
   padding: 20px;
+  gap: 50px;
+  justify-content: spac;
 }
 
 .section2-h2 {
