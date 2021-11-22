@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+        color: black;
+        line-height: 1;
+        margin: 100px;
+      }
+      .btn {
+        border: 1px solid green;
+        height: 48px;
+        width: 48px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      .btn:hover {
+        background-color: green;
+      }
+      .btn-icon {
+        height: 24px;
+        width: 24px;
+        stroke: green;
+      }
+      .one-a {
+        font-size: 18px;
+        color: gray;
+        text-decoration: none;
+        height: 36px;
+        width: 36px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        gap: 20px;
+      }
+      .one-a:hover {
+        background-color: green;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="one">
+      <button class="btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="btn-icon"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M15 19l-7-7 7-7"
+          />
+        </svg>
+      </button>
+      <a href="#" class="one-a">1</a>
+      <a href="#" class="one-a">2</a>
+      <a href="#" class="one-a">3</a>
+      <a href="#" class="one-a">4</a>
+      <a href="#" class="one-a">5</a>
+      <span class="dots">...</span>
+      <a href="#" class="one-a">23</a>
+      <button class="btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="btn-icon"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M9 5l7 7-7 7"
+          />
+        </svg>
+      </button>
+    </div>
+  </body>
+</html>

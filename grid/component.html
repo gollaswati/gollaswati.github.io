@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+        color: black;
+        line-height: 1;
+        margin: 100px 100px;
+      }
+      img {
+        height: 200px;
+        border-radius: 7px;
+        transform: scale(1.5);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 25%);
+      }
+      .btn {
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        border-radius: 50%;
+        box-shadow: 0 0 10px black;
+      }
+      .btn-icon {
+        height: 20px;
+        width: 20px;
+        stroke: green;
+      }
+      .carsol {
+        background-color: rgb(22, 63, 22);
+        width: 60%;
+        border-radius: 8px;
+        padding: 32px;
+        display: flex;
+        padding-left: 86px;
+        padding-right: 40px;
+        align-items: center;
+        gap: 86px;
+        position: relative;
+      }
+      .carsol-para {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5;
+        margin-bottom: 32px;
+        color: rgb(171, 211, 174);
+      }
+      .carsol-autor {
+        font-size: 14px;
+        color: rgb(166, 199, 169);
+      }
+      .carsol-job {
+        font-size: 12px;
+        color: rgb(166, 199, 169);
+      }
+      .btn--left {
+        left: 0;
+        top: 35%;
+        transform: translate(-50%, 50%);
+      }
+      .btn--right {
+        right: 0;
+        top: 35%;
+        transform: translate(50%, 50%);
+      }
+      .dots {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 32px);
+        bottom: 0;
+        display: flex;
+        gap: 12px;
+      }
+      .dot {
+        height: 12px;
+        width: 12px;
+        background-color: white;
+        border-radius: 2px solid green;
+        border-radius: 50%;
+      }
+      .dot--one {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="carsol">
+      <img src="/chairss.jpg" alt="chair" />
+      <blockquote class="carsol-one">
+        <p class="carsol-para">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+          molestiae totam numquam, eum nemo reiciendis in voluptatum
+          necessitatibus aspernatur voluptates. Eum sit dolore laborum est illum
+          vero vitae quam qui.
+        </p>
+        <p class="carsol-autor">maria de laurence</p>
+        <p class="carsol-job">lorem lorem lorem</p>
+      </blockquote>
+      <button class="btn btn--left">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="btn-icon"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M15 19l-7-7 7-7"
+          />
+        </svg>
+      </button>
+      <button class="btn btn--right">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="btn-icon"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M9 5l7 7-7 7"
+          />
+        </svg>
+      </button>
+      <div class="dots">
+        <button class="dot dot--one">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+      </div>
+    </div>
+  </body>
+</html>

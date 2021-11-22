@@ -36,9 +36,11 @@ body {
   background-color: rgb(24, 82, 24);
   text-decoration: none;
   text-transform: uppercase;
+  border-radius: 30px;
   display: inline-block;
   padding: 8px 10px;
   font-size: 12px;
+  margin-right: 10px;
 }
 img {
   width: 100%;
@@ -46,14 +48,17 @@ img {
 .image1 {
   width: 300px;
   height: 200px;
+  border-radius: 30px;
 }
 .image2 {
   width: 400px;
   height: 250px;
+  border-radius: 30px;
 }
 .image {
   width: 900px;
   height: 500px;
+  border-radius: 30px;
 }
 .icons {
   color: aqua;
@@ -97,6 +102,7 @@ h2 {
 .section2 {
   display: flex;
   background-color: green;
+  border-radius: 30px;
   color: white;
   padding: 20px;
   gap: 50px;
@@ -114,6 +120,12 @@ h2 {
 .head {
   margin-top: 50px;
 }
+.chair {
+  box-shadow: 10px 10px 10px green;
+}
+.chair1 {
+  box-shadow: 0 10px 20px 0 #1d1f1a8a;
+}
 .section3-head {
   display: flex;
   margin-top: 50px;
@@ -125,6 +137,7 @@ h2 {
 .clear {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 footer {
   margin-top: 50px;
