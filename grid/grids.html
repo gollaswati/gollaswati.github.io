@@ -1,49 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        .one{
-            height: 800px;
-            display: grid;
-            border: 5px solid rgb(112, 29, 57);
-            grid-template-columns: repeat(3,100px);
-            grid-template-rows: 100px 100px 100px;
-            align-content: center;
-            justify-content: center;
-        }
-        .two{
-            background-color:greenyellow;
-            border:4px solid yellow;
-            padding: 40px;
-        }
-         .three1{
-             grid-column-start: 1;
-             grid-column-end: 3;
-         }
-         .three2{
-             grid-column-start:2;
-         }
-         .three3{
-             grid-row-start:2;
-             grid-row-end: 4;
-         }
-         .three4{
-            align-self: center;
-            justify-self: center;
-         }
+      body {
+        width: 100%;
+      }
+      .container {
+        height: 200px;
+        display: grid;
+        grid-template-columns: repeat(5, 100px);
+        gap: 30px;
+      }
+      .containers {
+        background-color: greenyellow;
+        border: 4px solid yellow;
+        padding: 50px;
+      }
     </style>
-</head>
-<body>
-    <div class="one">
-        <div class="two three1">1</div>
-        <div class="two three2">2</div>
-        <div class="two three3">3</div>
-        <div class="two three4">4</div>
-        <div class="two three5">5</div>
+  </head>
+  <body>
+    <div class="container">
+      <div class="containers one">1</div>
+      <div class="containers two">2</div>
+      <div class="containers three">3</div>
+      <div class="containers four">4</div>
+      <div class="containers five">5</div>
     </div>
-</body>
+  </body>
 </html>
