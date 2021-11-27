@@ -60,6 +60,13 @@ header {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
+  /* margin-bottom: 9.6rem; */
+}
+/* .grid:last-child {
+  margin-bottom: 0;
+} */
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
 }
 .grid--2--column {
   grid-template-columns: repeat(2, 1fr);
@@ -68,7 +75,7 @@ header {
   grid-template-columns: repeat(3, 1fr);
 }
 .grid--4--column {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 .grid-center-v {
   align-items: center;
@@ -453,5 +460,31 @@ strong {
   margin-top: 4.8rem;
 }
 .pricing-plan {
+  border-radius: 11px;
+
+  width: 75%;
+}
+.pricing-plan--starter {
+  justify-self: end;
+  border: 2px solid #fdf2e9;
+  padding: 4.6rem;
+}
+.pricing-plan--complete {
   background-color: #fdf2e9;
+  padding: 4.8rem;
+  position: relative;
+  overflow: hidden;
+}
+.pricing-plan--complete::after {
+  content: "Best value";
+  position: absolute;
+  top: 6%;
+  right: -18%;
+  background-color: #ffd43b;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 0.8rem 8rem;
+
+  transform: rotate(45deg);
 }
