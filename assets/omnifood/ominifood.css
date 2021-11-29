@@ -114,6 +114,23 @@ header {
   line-height: 1.2;
   margin-bottom: 3.2rem;
 }
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close"] {
+  display: none;
+}
 .subheading {
   display: block;
   font-size: 1.6rem;
