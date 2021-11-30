@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+header {
+  background-image: url(/02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 9.4rem;
+  padding: 0 48px;
+}
+.header-head {
+  height: 2.2rem;
+  color: #ffff;
+  text-decoration: none;
+  font-size: 2.6rem;
+}
+
+.header-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+.header-nav-link {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.8rem;
+  color: #ffff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+}
+.header-nav-link:hover {
+  color: #e67e22;
+}
+.header-div {
+  margin-left: 350px;
+  margin-top: 200px;
+  color: #ffff;
+  margin-bottom: 100px;
+}
+.header-para {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.header-paraa {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.header-paragraph {
+  font-size: 2rem;
+  margin-bottom: 100px;
+}
+.heading {
+  padding-bottom: 100px;
+}
+.section-one {
+  text-align: center;
+  margin-top: 80px;
+}
+.section-head {
+  font-size: 3rem;
+}
+.name {
+  border-bottom: 2px solid red;
+  margin: 10px 880px;
+}
+.section-head span {
+  color: red;
+}
+.section-para {
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+.section-span {
+  font-size: 1.5rem;
+  line-height: 2;
+}
+.section-one-flex {
+  display: flex;
+  justify-content: space-between;
+}
