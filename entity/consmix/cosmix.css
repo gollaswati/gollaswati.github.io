@@ -25,12 +25,10 @@ header {
   padding: 0 48px;
 }
 .header-head {
-  height: 2.2rem;
   color: #ffff;
   text-decoration: none;
-  font-size: 2.6rem;
+  font-size: 3rem;
 }
-
 .header-nav-list {
   list-style: none;
   display: flex;
@@ -161,7 +159,7 @@ h4 {
   margin-top: 10px;
 }
 .king span {
-  margin-left: 770px;
+  margin-left: 500px;
 }
 .king-head {
   width: 35%;
@@ -271,6 +269,24 @@ h4 {
   text-align: center;
   width: 15%;
   border: 1px solid whitesmoke;
+  position: relative;
+}
+.price-head::after {
+  content: "$39 per month";
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 90px;
+  top: -40px;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-radius: 50%;
+  font-size: 2rem;
 }
 .price-start {
   padding: 40px;
@@ -328,11 +344,31 @@ h4 {
   line-height: 2.5;
   padding: 30px;
   color: white;
+  position: relative;
 }
 .quote {
   font-size: 3rem;
   color: white;
   transform: rotate(180deg);
+}
+.dots {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -10px);
+  bottom: 0;
+  display: flex;
+  gap: 12px;
+}
+.dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: red;
+  border: 1px solid red;
+}
+.dot-one {
+  background-color: rgb(240, 111, 111);
+  border: 1px solid red;
 }
 .again-image {
   border-radius: 50%;
@@ -375,6 +411,20 @@ h4 {
   line-height: 2;
   border: 1px solid rgb(218, 216, 216);
   width: 25.07%;
+  position: relative;
+  overflow: hidden;
+}
+.blog-head::after {
+  content: "jan 10 2016";
+  position: absolute;
+  top: 1px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .blog-head h2 {
   font-size: 2rem;
