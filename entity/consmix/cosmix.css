@@ -73,6 +73,7 @@ header {
 .section-one {
   text-align: center;
   margin-top: 80px;
+  padding-top: 100px;
 }
 .section-head {
   font-size: 3rem;
@@ -132,12 +133,39 @@ header {
   line-height: 2.4;
   margin-left: 310px;
 }
-button {
+.quality-btn {
   padding: 10px;
   background-color: red;
   color: white;
   border: 1px solid white;
   margin-left: 400px;
+}
+h4 {
+  background-color: rgb(240, 236, 236);
+}
+.user {
+  display: flex;
+  gap: 100px;
+  margin-top: 100px;
+}
+.king-head h2 {
+  padding: 20px 0px;
+  font-size: 2.2rem;
+}
+.king {
+  background-color: red;
+  margin-right: 100px;
+  height: 20px;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.king span {
+  margin-left: 770px;
+}
+.king-head {
+  width: 35%;
+  margin-left: 300px;
 }
 .section-two {
   margin-top: 50px;
@@ -156,8 +184,8 @@ button {
 }
 .design-one {
   color: red;
-  height: 3.2rem;
-  width: 6rem;
+  height: 3rem;
+  width: 8rem;
   border: 1px solid gray;
   background-color: white;
   padding: 1.6rem;
@@ -176,18 +204,21 @@ button {
   line-height: 1.8;
   margin-left: 30px;
 }
+.awesome {
+  background-color: rgb(247, 242, 242);
+}
 .feature {
   height: 3.2rem;
-  width: 6rem;
+  width: 9rem;
   border: 1px solid gray;
   background-color: white;
-  padding: 1.6rem;
+  padding: 3.5rem;
   margin-top: 30px;
   margin-left: -10px;
   margin-bottom: 30px;
 }
 .feature-head {
-  margin-left: 700px;
+  margin-left: 500px;
 }
 .feature:hover {
   color: red;
@@ -212,12 +243,11 @@ button {
 }
 .services-one {
   margin-left: 670px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .services {
   display: inline-block;
-  border: 1px solid black;
-  background-color: rgb(197, 195, 195);
+  background-color: rgb(238, 234, 234);
   padding: 20px 30px;
   color: #333;
   font-size: 2rem;
@@ -235,4 +265,228 @@ button {
   margin-left: 300px;
   width: 50%;
   gap: 10px;
+  padding-bottom: 100px;
+}
+.price-head {
+  text-align: center;
+  width: 15%;
+  border: 1px solid whitesmoke;
+}
+.price-start {
+  padding: 40px;
+  background-color: rgb(236, 236, 234);
+  border-bottom: none;
+  font-size: 2.3rem;
+  padding-top: 100px;
+}
+.price-list {
+  list-style: none;
+  padding: 20px;
+  font-size: 1.8rem;
+  line-height: 2;
+}
+.price-item span {
+  font-weight: 700;
+  color: black;
+}
+.price-btn {
+  border: 1px solid red;
+  padding: 10px;
+  color: red;
+  background-color: white;
+}
+.price-header {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 60px;
+}
+.team-head {
+  line-height: 2;
+  border: 1px solid whitesmoke;
+  width: 16.5%;
+  text-align: center;
+  color: rgb(124, 121, 121);
+}
+.team-header {
+  font-size: 2rem;
+}
+.team-para {
+  font-size: 1.5rem;
+}
+.team-icon {
+  height: 3rem;
+  width: 4rem;
+}
+.again-head {
+  background-image: url(/cup.jpg);
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  line-height: 2.5;
+  padding: 30px;
+  color: white;
+}
+.quote {
+  font-size: 3rem;
+  color: white;
+  transform: rotate(180deg);
+}
+.again-image {
+  border-radius: 50%;
+}
+.again-head p {
+  font-size: 1.5rem;
+}
+.again-head h2 {
+  font-size: 2.4rem;
+}
+.again-head span {
+  font-size: 2rem;
+}
+.thumb-icon {
+  font-size: 3rem;
+}
+.pink {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.again-think span {
+  font-size: 2.5rem;
+  color: red;
+  margin-top: 3px;
+}
+.again-think p {
+  font-size: 2rem;
+  line-height: 2;
+}
+.thinks {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding: 40px;
+  background-color: rgb(235, 232, 232);
+}
+/* **************** */
+.blog-head {
+  line-height: 2;
+  border: 1px solid rgb(218, 216, 216);
+  width: 25.07%;
+}
+.blog-head h2 {
+  font-size: 2rem;
+}
+.blog-image {
+  height: 250px;
+}
+.blog-icons {
+  font-size: 1.5rem;
+}
+.blog-icons span {
+  margin: 0px 10px;
+}
+.blog-head p {
+  font-size: 1.7rem;
+  line-height: 1.4;
+}
+.blog-head div {
+  font-size: 1.7rem;
+  padding-top: 20px;
+}
+.blog-header {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 70px;
+}
+/* ***************************88 */
+.contact-head {
+  line-height: 3;
+  margin-top: 50px;
+}
+.info-head {
+  font-size: 2.2rem;
+}
+.info-head span {
+  color: red;
+}
+.contact-list {
+  font-size: 1.6rem;
+  list-style: none;
+}
+.contact-items span {
+  margin-left: 10px;
+  color: #333;
+  font-weight: 700;
+}
+/* **************** */
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 350px 400px;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+  margin-top: 100px;
+}
+#full-name {
+  padding: 10px;
+}
+#email {
+  padding: 8px;
+}
+#write {
+  padding-bottom: 70px;
+  padding-left: 19px;
+  padding-top: 10px;
+}
+.cta-btn {
+  border: 1px solid red;
+  color: red;
+  padding: 10px 420px;
+}
+.contact-header {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+}
+/* **********************8 */
+.footer-head {
+  margin-top: 70px;
+}
+.footer-head h3 {
+  background-color: red;
+  text-align: center;
+  color: rgb(207, 204, 204);
+  padding: 40px;
+  font-size: 2.4rem;
+}
+.footer-header {
+  text-align: center;
+  line-height: 2;
+  padding: 40px;
+}
+.footer-header h3 {
+  font-size: 2.4rem;
+}
+.footer-logo {
+  border: 1px solid grey;
+  padding: 10px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.footer-main {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 30px auto 15px auto;
 }
