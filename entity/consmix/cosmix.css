@@ -13,7 +13,8 @@ body {
   color: #555;
 }
 header {
-  background-image: url(/aa.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(/aa.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
