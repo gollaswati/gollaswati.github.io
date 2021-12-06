@@ -46,7 +46,10 @@ header {
   transition: all 0.3s;
 }
 .header-nav-link:hover {
-  color: #e67e22;
+  color: #e63f22;
+}
+.header-nav-link span {
+  color: red;
 }
 .header-div {
   margin-left: 350px;
@@ -59,11 +62,11 @@ header {
   margin-bottom: 20px;
 }
 .header-paraa {
-  font-size: 4rem;
+  font-size: 5rem;
   margin-bottom: 20px;
 }
 .header-paragraph {
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-bottom: 100px;
 }
 .heading {
@@ -71,8 +74,7 @@ header {
 }
 .section-one {
   text-align: center;
-  margin-top: 80px;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .section-head {
   font-size: 3rem;
@@ -80,14 +82,14 @@ header {
 }
 .name {
   border-bottom: 2px solid red;
-  margin: 10px 880px;
+  margin: 10px 865px;
 }
 .section-head span {
   color: red;
 }
 .section-para {
   font-size: 1.3rem;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .section-span {
   font-size: 1.5rem;
@@ -101,7 +103,7 @@ header {
 }
 .creative-para {
   line-height: 1.5;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .creative-head {
   line-height: 1.5;
@@ -139,7 +141,16 @@ header {
   border: 1px solid white;
   margin-left: 400px;
 }
-h4 {
+.web {
+  background-color: rgb(240, 236, 236);
+}
+.web1 {
+  background-color: rgb(240, 236, 236);
+}
+.web2 {
+  background-color: rgb(240, 236, 236);
+}
+.web3 {
   background-color: rgb(240, 236, 236);
 }
 .user {
@@ -159,15 +170,48 @@ h4 {
   font-size: 20px;
   margin-top: 10px;
 }
+.king1 {
+  background-color: red;
+  margin-right: 140px;
+  height: 20px;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.king2 {
+  background-color: red;
+  margin-right: 250px;
+  height: 20px;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.king3 {
+  background-color: red;
+  margin-right: 400px;
+  height: 20px;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
 .king span {
   margin-left: 500px;
+}
+.king1 span {
+  margin-left: 460px;
+}
+.king2 span {
+  margin-left: 350px;
+}
+.king3 span {
+  margin-left: 200px;
 }
 .king-head {
   width: 35%;
   margin-left: 300px;
 }
 .section-two {
-  margin-top: 50px;
+  margin-top: 10px;
   text-align: center;
 }
 .grid-one {
@@ -199,8 +243,8 @@ h4 {
   margin-left: 30px;
 }
 .design-text {
-  font-size: 1.8rem;
-  line-height: 1.8;
+  font-size: 1.6rem;
+  line-height: 1.6;
   margin-left: 30px;
 }
 .awesome {
@@ -540,4 +584,12 @@ h4 {
   justify-content: center;
   gap: 50px;
   margin: 30px auto 15px auto;
+}
+@media (max-width: 1826px) {
+  header {
+    max-width: 1826px;
+  }
+  main {
+    max-width: 1824px;
+  }
 }
