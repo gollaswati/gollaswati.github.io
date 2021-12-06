@@ -76,30 +76,41 @@ header {
   text-align: center;
   padding-top: 50px;
 }
+
+.name {
+  position: relative;
+}
 .section-head {
   font-size: 3rem;
   text-align: center;
 }
-.name {
-  border-bottom: 2px solid red;
-  margin: 10px 865px;
+.section-head:after {
+  position: absolute;
+  top: 36px;
+  left: 47%;
+  height: 2px;
+  width: 110px;
+  content: "";
+  background-color: red;
 }
 .section-head span {
   color: red;
 }
 .section-para {
   font-size: 1.3rem;
-  margin-top: 10px;
+  margin-top: 24px;
 }
 .section-span {
   font-size: 1.5rem;
   line-height: 2;
 }
 .section-one-grid {
-  display: grid;
-  grid-template-columns: 500px 1fr;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  margin-left: 350px;
+}
+.flex {
+  padding: 0 300px;
 }
 .creative-para {
   line-height: 1.5;
@@ -108,10 +119,6 @@ header {
 .creative-head {
   line-height: 1.5;
   font-size: 3rem;
-}
-.section-image {
-  margin-top: 70px;
-  margin-left: 100px;
 }
 .creative-head span {
   color: red;
@@ -164,47 +171,47 @@ header {
 }
 .king {
   background-color: red;
-  margin-right: 100px;
   height: 20px;
   color: white;
   font-size: 20px;
   margin-top: 10px;
+  width: 95%;
 }
 .king1 {
   background-color: red;
-  margin-right: 140px;
   height: 20px;
   color: white;
   font-size: 20px;
   margin-top: 10px;
+  width: 85%;
 }
 .king2 {
   background-color: red;
-  margin-right: 250px;
   height: 20px;
   color: white;
   font-size: 20px;
   margin-top: 10px;
+  width: 75%;
 }
 .king3 {
   background-color: red;
-  margin-right: 400px;
   height: 20px;
   color: white;
   font-size: 20px;
+  width: 45%;
   margin-top: 10px;
 }
 .king span {
-  margin-left: 500px;
+  padding-left: 92%;
 }
 .king1 span {
-  margin-left: 460px;
+  padding-left: 89%;
 }
 .king2 span {
-  margin-left: 350px;
+  padding-left: 87%;
 }
 .king3 span {
-  margin-left: 200px;
+  padding-left: 85%;
 }
 .king-head {
   width: 35%;
@@ -227,13 +234,12 @@ header {
 }
 .design-one {
   color: red;
-  height: 3rem;
-  width: 8rem;
+  height: 42px;
+  width: 100px;
   border: 1px solid gray;
   background-color: white;
   padding: 1.6rem;
   border-radius: 50%;
-  margin-top: 30px;
 }
 .design-title {
   font-size: 2.4rem;
@@ -272,7 +278,7 @@ header {
   display: flex;
   gap: 70px;
   width: 70%;
-  margin-left: 350px;
+  margin-left: 260px;
 }
 .web-design-head {
   font-size: 1.6rem;
@@ -283,6 +289,10 @@ header {
 }
 .web-design-head span {
   color: red;
+}
+.tec-image {
+  width: 500px;
+  height: 400px;
 }
 .services-one {
   margin-left: 670px;
@@ -320,7 +330,7 @@ header {
   content: "$39 per month";
   position: absolute;
   width: 100px;
-  height: 50px;
+  height: 60px;
   left: 90px;
   top: -40px;
   background-color: red;
@@ -454,7 +464,6 @@ header {
 /* **************** */
 .blog-head {
   line-height: 2;
-  border: 1px solid rgb(218, 216, 216);
   width: 25.07%;
   position: relative;
   overflow: hidden;
@@ -500,7 +509,6 @@ header {
 .logos {
   display: flex;
   justify-content: center;
-  gap: 100px;
   padding: 70px;
 }
 /* ***************************88 */
@@ -546,12 +554,12 @@ header {
 .cta-btn {
   border: 1px solid red;
   color: red;
-  padding: 10px 420px;
+  padding: 10px 292px;
 }
 .contact-header {
   display: flex;
   justify-content: center;
-  gap: 300px;
+  gap: 200px;
 }
 /* **********************8 */
 .footer-head {
@@ -585,11 +593,208 @@ header {
   gap: 50px;
   margin: 30px auto 15px auto;
 }
-@media (max-width: 1826px) {
-  header {
-    max-width: 1826px;
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+.icon-mobile-nav[name="close"] {
+  display: none;
+}
+@media (max-width: 84rem) {
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
-  main {
-    max-width: 1824px;
+  .hero {
+    max-width: 120rem;
+  }
+}
+@media (max-width: 75rem) {
+  html {
+    font-size: 56.25%;
+  }
+  .hero {
+    gap: 4.8rem;
+  }
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+  .name {
+    border-bottom: 2 px solid red;
+  }
+}
+@media (max-width: 1024px) {
+  .header-div {
+    margin-left: 128px;
+    margin-top: 80px;
+  }
+  .flex {
+    padding: 0px 28px;
+  }
+  .quality-head h2 {
+    margin-left: 17px;
+  }
+  .quality-head p {
+    margin-left: 17px;
+  }
+  .quality-btn {
+    margin-left: 150px;
+  }
+  .grid-one {
+    margin-left: 110px;
+  }
+  .king-head {
+    margin-left: 175px;
+  }
+  .services-one {
+    margin-left: 286px;
+  }
+  .image-grid {
+    margin-left: 140px;
+  }
+
+  .feature-head {
+    margin-left: 181px;
+  }
+  .web-design {
+    margin-left: 178px;
+  }
+  .price-head::after {
+    left: 25px;
+  }
+  .thinks {
+    gap: 101px;
+  }
+  .logos {
+    gap: 1px;
+  }
+  .contact-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+  }
+  .section-head:after {
+    left: 45%;
+  }
+  .merry {
+    width: 150px;
+    height: 150px;
+  }
+}
+/* mobile */
+@media (max-width: 767px) {
+  .flex {
+    flex-direction: column;
+  }
+  .quality {
+    grid-template-columns: 1fr;
+  }
+  .grid-one {
+    grid-template-columns: 1fr;
+  }
+  .user {
+    flex-direction: column;
+  }
+  .web-design {
+    flex-direction: column;
+  }
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+  .price-header {
+    flex-direction: column;
+    gap: 90px;
+  }
+  .price-head::after {
+    left: 40%;
+  }
+  .price-head {
+    width: 90%;
+  }
+  .team-head {
+    width: 90%;
+  }
+  .thinks {
+    flex-direction: column;
+  }
+  .blog-header {
+    flex-direction: column;
+  }
+  .blog-head {
+    width: 90%;
+    margin-left: 70px;
+  }
+  .logos {
+    flex-direction: column;
+  }
+  .contact-header {
+    flex-direction: column;
+  }
+  .footer-main {
+    flex-direction: column;
+  }
+  .cta-form {
+    grid-template-columns: 300px;
+  }
+  .services-one {
+    margin-left: 100px;
+  }
+  .feature-head {
+    margin-left: 10px;
+  }
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  .nav-open .header-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translatex(0);
+  }
+  .header-nav {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    /* work on safari
+    -webkit-backdrop-filter: blur(10px); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translatex(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* hide the navigation */
+    /* Allows no transitions at all */
+    /* display: none; we cannot animation*/
+
+    /* Hide it visually */
+    opacity: 0;
+
+    /* Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* Hide it form screen readers */
+    visibility: hidden;
   }
 }
