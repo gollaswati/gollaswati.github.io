@@ -785,3 +785,12 @@ header {
     visibility: hidden;
   }
 }
+/* ******************************** */
+@media (max-width: 425) {
+  .creative-head {
+    font-size: 2rem;
+  }
+  .section-head:after {
+    left: 37%;
+  }
+}
