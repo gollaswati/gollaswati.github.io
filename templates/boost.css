@@ -382,10 +382,10 @@ footer {
     width: 60%;
   }
   .start-div {
-    margin-left: 260px;
+    margin-left: 238px;
   }
   .start-divs {
-    margin-left: 260px;
+    margin-left: 238px;
   }
   .section-div {
     display: grid;
@@ -435,6 +435,7 @@ footer {
   }
   .section-five {
     flex-direction: column;
+    padding: 10px 100px;
   }
   .start-div {
     margin-left: 100px;
