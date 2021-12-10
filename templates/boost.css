@@ -488,6 +488,12 @@ footer {
     width: 100px;
     height: 60px;
   }
+  .start-div {
+    gap: 81px;
+  }
+  .start-divs {
+    gap: 81px;
+  }
   .facts {
     display: flex;
     flex-direction: column;
