@@ -278,13 +278,15 @@ body {
   text-align: center;
 }
 .start-head {
-  font-size: 3rem;
-  font-weight: 700;
-  padding: 10px;
+  font-size: 4rem;
+  font-weight: 800;
+  padding: 30px;
+  margin-top: 30px;
+  color: black;
 }
 .start-para {
   font-size: 1.6rem;
-  padding: 10px;
+  padding: 20px;
 }
 .start-up {
   display: flex;
@@ -364,7 +366,7 @@ body {
   text-align: justify;
   justify-content: center;
   width: 50%;
-  margin-left: 400px;
+  margin-left: 334px;
   padding: 60px;
   gap: 50px;
 }
