@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<script>
+  let fruits = ["Apple", "Orange", "Plum"];
+  alert(fruits[0]); // Apple
+  alert(fruits[1]); // Orange
+  alert(fruits[2]); // Plum
+  alert(fruits.length);
+  alert(fruits);
+  // pop
+  alert(fruits.pop()); // remove "plum" and alert it
+  alert(fruits); // Apple, Orange
+  // push
+  fruits.push("Pear");
+  alert(fruits); // Apple, Orange, Pear
+  let arr = [
+    "Apple",
+    {name: "John"},
+    true,
+    function () {
+      alert("hello");
+    },
+  ];
+
+  // get the object at index 1 and then show its name
+  alert(arr[1].name); // John
+
+  // get the function at index 3 and run it
+  arr[3](); // hello
+  // shift
+  let veg = ["App", "Ora", "Poor"];
+
+  alert(veg.shift());
+
+  alert(veg);
+  // unshift
+  let color = ["Orange", "Pink"];
+
+  color.unshift("purple");
+
+  alert(fruits);
+  // push and unshift
+  let animal = ["lion"];
+  animal.push("dog", "cat");
+  animal.unshift("cow", "tiger");
+  alert(animal);
+  // copy
+  let movie = ["rrr"];
+
+  let array = movie; // copy by reference (two variables reference the same array)
+
+  alert(array === movie); // true
+
+  array.push("pushpa"); // modify the array by reference
+
+  alert(movie);
+  // loop
+  let number = ["one", "two", "three"];
+
+  for (let i = 0; i < number.length; i++) {
+    alert(number[i]);
+  }
+  // multi dimentional array
+  let matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+  ];
+
+  alert(matrix[1][1]);
+</script>

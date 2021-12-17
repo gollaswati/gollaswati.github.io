@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<script>
+  // let user = {};
+
+  // // set
+  // user["likes birds"] = true;
+
+  // // get
+  // alert(user["likes birds"]); // true
+
+  // // delete
+  // delete user["likes birds"];
+  let color = {
+    name: "red",
+    age: 30,
+  };
+
+  let key = prompt("What do you want to know about the user?", "name");
+
+  // access by variable
+  document.write(color[key]); // John (if enter "name")
+  // let animal = {
+  //   name: "dog",
+  //   age: 30,
+  // };
+
+  // let key = "name";
+  // alert(animal.key);
+  let fruit = prompt("Which fruit to buy?", "apple");
+
+  let bag = {
+    [fruit]: 5, // the name of the property is taken from the variable fruit
+  };
+
+  alert(bag.apple);
+</script>
