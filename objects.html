@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <script>
+  // creating object
   // let user = {};
 
   // // set
@@ -10,27 +11,110 @@
 
   // // delete
   // delete user["likes birds"];
-  let color = {
-    name: "red",
-    age: 30,
-  };
+  // how to crate multi objects
+  // let color = {
+  //   name: "red",
+  //   age: 30,
+  // };
 
-  let key = prompt("What do you want to know about the user?", "name");
+  // let key = prompt("What do you want to know about the user?", "name");
 
-  // access by variable
-  document.write(color[key]); // John (if enter "name")
+  // // access by variable
+  // document.write(color[key]); // John (if enter "name")
+  // undefined using dot in multi
   // let animal = {
   //   name: "dog",
   //   age: 30,
   // };
 
   // let key = "name";
-  // alert(animal.key);
-  let fruit = prompt("Which fruit to buy?", "apple");
+  // document.write(animal.key);
+  // computed properties
+  // let fruit = prompt("Which fruit to buy?", "apple");
 
-  let bag = {
-    [fruit]: 5, // the name of the property is taken from the variable fruit
+  // let bag = {
+  //   [fruit]: 5, // the name of the property is taken from the variable fruit
+  // };
+
+  // alert(bag.apple);
+  // let fruit = prompt("Which fruit to buy?", "apple");
+  // let bag = {};
+
+  // // take property name from the fruit variable
+  // bag[fruit] = 5;
+  //Property value shorthand
+  // function makeUser(name, age) {
+  //   return {
+  //     name: name,
+  //     age: age,
+  //     // ...other properties
+  //   };
+  // }
+  // let user = makeUser("John", 30);
+  // alert(user.name); // John
+  // we can also use simple way
+  function makeUser(fruit, type) {
+    return {
+      fruit,
+      type,
+      // ...other properties
+    };
+  }
+  let fruits = makeUser("banana", "red");
+  alert(fruits.fruit); // John
+  // property limitation
+  // let obj = {
+  //   for: 1,
+  //   let: 2,
+  //   return: 3,
+  // };
+
+  // alert(obj.for + obj.let + obj.return);
+
+  // another way of limitation of objects
+  let obj = {
+    1: "movie",
+  };
+  document.write(obj[1]);
+  // display movie
+  // using in property
+  let parents = {
+    name: "chalapati",
+    gender: "male",
+    age: 50,
+  };
+  document.write("age" in parents);
+  //the for in loop
+  // let color = {
+  //   name: "pink",
+  //   count: 10,
+  //   isColors: true,
+  // };
+  // delete color.count;
+  // for (let key in color) {
+  //   alert(key);
+  //   alert(color[key]);
+  // }
+  // ordered
+  // let codes = {
+  //   1: "one",
+  //   2: "two",
+  //   3: "three",
+  //   4: "four",
+  // };
+
+  // for (let code in codes) {
+  //   alert(code);
+  // }
+  // adding integer to display order wise
+  let codes = {
+    "+1": "one",
+    "+2": "two",
+    "+3": "three",
+    "+4": "four",
   };
 
-  alert(bag.apple);
+  for (let code in codes) {
+    alert(+code);
+  }
 </script>
