@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<script>
+  // “var” has no block scope
+  // if (true) {
+  //   var test = true; // use "var" instead of "let"
+  // }
+  // alert(test); // true, the variable lives after if
+  // // ----------------
+  // if (true) {
+  //   let test = true; // use "let"
+  // }
+  // alert(test); // Error: test is not defined
+  // “var” tolerates redeclarations
+  // let user = "name";
+  // let user = "age"; // SyntaxError: 'user' has already been declared
+
+  // alert(user);
+
+  // var user = "Pete";
+
+  // var user = "John";
+  // document.write(user);
+  // // constant
+
+  // const name = "swathi";
+
+  // document.write(name);
+  // // addition
+  // var a = 1,
+  //   b = 2;
+  // document.write(a + b);
+  // // substraction
+  // var a = 1,
+  //   b = 2;
+  // document.write(a - b);
+  // // multiplication
+  // var a = 1,
+  //   b = 2;
+  // document.write(a * b);
+  // // division
+  // var a = 1,
+  //   b = 2;
+  // document.write(a / b);
+  // // modulus
+  // var a = 1,
+  //   b = 2;
+  // document.write(a % b);
+  let obj = {};
+
+  obj.x = 3;
+  alert(obj.x); // Prints 3.
+  alert(obj); // Prints { x: 3 }.
+
+  const key = "y";
+  obj[key] = 5;
+  document.write(obj[key]); // Prints 5.
+  document.write(obj); // Prints { x: 3, y: 5 }.
+  // comparision AND operator
+  var a1 = true && true; // t && t returns true
+  alert(a1);
+  var a2 = true && false; // t && f returns false
+  alert(a2);
+  var a3 = false && true; // f && t returns false
+  alert(a3);
+  var a4 = false && 3 == 4; // f && f returns false
+  alert(a4);
+  var a5 = "Cat" && "Dog"; // t && t returns Dog
+  alert(a5);
+  var a6 = false && "Cat"; // f && t returns false
+  alert(a6);
+  var a7 = "Cat" && false; // t && f returns false
+  alert(a7);
+  // comparion OR operator
+  var o1 = true || true; // t || t returns true
+  document.write(o1);
+  var o2 = false || true; // f || t returns true
+  document.write(o2);
+  var o3 = true || false; // t || f returns true
+  document.write(o3);
+  var o4 = false || 3 == 4; // f || f returns false
+  document.write(o4);
+  var o5 = "Cat" || "Dog"; // t || t returns Cat
+  document.write(o5);
+  var o6 = false || "Cat"; // f || t returns Cat
+  document.write(o6);
+  var o7 = "Cat" || false; // t || f returns Cat
+  document.write(o7);
+  // not operator
+  var n1 = !true; // !t returns false
+  document.write(n1);
+  var n2 = !false; // !f returns true
+  document.write(n2);
+  var n3 = !"Cat"; // !t returns false
+  document.write(n3);
+  //string operator
+  document.write(" my " + " name " + " is " + " swathi ");
+</script>
