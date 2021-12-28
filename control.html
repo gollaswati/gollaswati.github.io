@@ -75,12 +75,13 @@
   //   // (or) text +=cars[i] + "<br>"
   // }
   // document.write(text);
-  // let text = "";
-
-  // for (let i = 0; i < 5; i++) {
-  //   text += "The number is " + i + "<br>";
-  // }
-  // document.write(text);
+  let text = "";
+  let reverse = "";
+  for (let i = 0; i < 5; i--) {
+    text += "The number is " + i + "<br>";
+    reverse = reverse + i;
+  }
+  document.write(reverse);
   // for (i = 2; i < 10; i++) {
   //   document.write("number starts from " + i + "<br>");
   // }
