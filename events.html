@@ -22,7 +22,7 @@
         document.getElementById("demo").innerHTML = Date();
       }
     </script> -->
-    <div onload="checkCookies()">
+    <!-- <body onload="checkCookies()">
       <h2>JavaScript HTML Events</h2>
 
       <p id="demo"></p>
@@ -38,6 +38,89 @@
           document.getElementById("demo").innerHTML = text;
         }
       </script>
+    </body> -->
+    <!-- <h2>JavaScript HTML Events</h2>
+    Enter your name: <input type="text" id="fname" onchange="upperCase()" />
+    <script>
+      function upperCase() {
+        const x = document.getElementById("fname");
+        x.value = x.value.toUpperCase();
+      }
+    </script> -->
+
+    <!-- mouse hour function -->
+    <div
+      onmouseover="mOver(this)"
+      onmouseout="mOut(this)"
+      style="
+        background-color: #38d9cc;
+        width: 120px;
+        height: 20px;
+        padding: 30px;
+      "
+    >
+      Mouse Over Me
     </div>
+
+    <script>
+      function mOver(obj) {
+        obj.style.backgroundColor = "#1ec5e5";
+        obj.innerHTML = "hello everyone";
+      }
+
+      function mOut(obj) {
+        obj.innerHTML = "thank you";
+      }
+    </script>
+    <br />
+
+    <div
+      onmouseover="myOver(this)"
+      onmouseout="myOut(this)"
+      style="
+        background-color: #38d9cc;
+        width: 120px;
+        height: 20px;
+        padding: 30px;
+      "
+    >
+      Mouse Over Me
+    </div>
+
+    <script>
+      function myOver(obj) {
+        obj.style.backgroundColor = "#1ec5e5";
+        obj.innerHTML = "IM SWATHI";
+      }
+
+      function myOut(obj) {
+        obj.innerHTML = "NAME";
+      }
+    </script>
+    <br />
+    <!-- click on function -->
+    <div
+      onmousedown="mDown(this)"
+      onmouseup="mUp(this)"
+      style="
+        background-color: #d94a38;
+        width: 90px;
+        height: 20px;
+        padding: 40px;
+      "
+    >
+      Click Me
+    </div>
+
+    <script>
+      function mDown(obj) {
+        obj.style.backgroundColor = "#1ec5e5";
+        obj.innerHTML = "Release Me";
+      }
+
+      function mUp(obj) {
+        obj.innerHTML = "Thank You";
+      }
+    </script>
   </body>
 </html>

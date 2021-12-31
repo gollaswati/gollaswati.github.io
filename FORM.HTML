@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script>
+    <!-- <script>
       function validateForm() {
         let x = document.forms["myForm"]["fname"].value;
         if (x == "") {
@@ -9,7 +9,7 @@
           return false;
         }
       }
-    </script>
+    </script> -->
     <!-- <script src="function.js"></script> -->
   </head>
   <body>
@@ -39,5 +39,12 @@
         document.getElementById("demo").innerHTML = text;
       }
     </script> -->
+    <script>
+      message();
+      var list = document.getElementsByTagName("p");
+      for (var i = 0; i < list.length; i++) {
+        list[i].style.color = "red";
+      }
+    </script>
   </body>
 </html>

@@ -29,6 +29,10 @@ function message() {
   console.log(numbers);
 }
 message();
+var list = document.getElementsByTagName("p");
+for (var i = 0; i < list.length; i++) {
+  list[i].style.color = "red";
+}
 // local variables
 // function showMessage() {
 //   let message = "Hello, my name is swathi"; // local variable
