@@ -77,21 +77,21 @@
 // const agegolla = now - 2019;
 // console.log(now - 1999 > now - 2019);
 
-let x, y;
-x = y = 34 - 10 - 4;
-console.log(x, y);
+// let x, y;
+// x = y = 34 - 10 - 4;
+// console.log(x, y);
 
-const averageage = ageswathi + agegolla / 2;
-console.log(ageswathi, agegolla, averageage);
+// const averageage = ageswathi + agegolla / 2;
+// console.log(ageswathi, agegolla, averageage);
 
-const averageage = (ageswathi + agegolla) / 2;
-console.log(ageswathi, agegolla, averageage);
+// const averageage = (ageswathi + agegolla) / 2;
+// console.log(ageswathi, agegolla, averageage);
 
-const averageage = ageswathi - agegolla / 2;
-console.log(ageswathi, agegolla, averageage);
+// const averageage = ageswathi - agegolla / 2;
+// console.log(ageswathi, agegolla, averageage);
 
-const averageage = (ageswathi - agegolla) / 2;
-console.log(ageswathi, agegolla, averageage);
+// const averageage = (ageswathi - agegolla) / 2;
+// console.log(ageswathi, agegolla, averageage);
 
-const averageage = (ageswathi * agegolla) / 2;
-console.log(ageswathi, agegolla, averageage);
+// const averageage = (ageswathi * agegolla) / 2;
+// console.log(ageswathi, agegolla, averageage);

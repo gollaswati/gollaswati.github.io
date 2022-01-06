@@ -109,20 +109,20 @@
 //   console.log("height undefined");
 // }
 
-const age = 18;
+// const age = 18;
 
-if (age === 18) console.log("your just become adult (strict)");
+// if (age === 18) console.log("your just become adult (strict)");
 
-if (age == 18) console.log("your just become adult (loose)");
+// if (age == 18) console.log("your just become adult (loose)");
 
-const favorite = prompt("whats your favorite number");
-console.log(favorite);
-console.log(typeof favorite);
+// const favorite = prompt("whats your favorite number");
+// console.log(favorite);
+// console.log(typeof favorite);
 
-if (favorite === 25) {
-  console.log("good");
-} else if (favorite === 7) {
-  console.log("bad");
-} else {
-  console.log("think");
-}
+// if (favorite === 25) {
+//   console.log("good");
+// } else if (favorite === 7) {
+//   console.log("bad");
+// } else {
+//   console.log("think");
+// }
