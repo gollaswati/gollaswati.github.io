@@ -38,8 +38,35 @@
 
 // functions
 
-function calage1(birthyear) {
-  const age = 2037 - birthyear;
-}
+// function calage1(birthyear) {
+//   const age = 2037 - birthyear;
+// }
 
-const age = calage1(1999);
+// const age = calage1(1999);
+
+// functions declarations
+// function calcage(birthyear) {
+//   return 2037 - birthyear;
+// }
+// const age1 = calcage(1991);
+
+// console.log(age1);
+// function expression
+// const calcage2 = function (birthyear) {
+//   return 2037 - birthyear;
+// };
+
+// const age2 = calcage2(1991);
+
+// console.log(age1, age2);
+
+// const getRectArea = function (width, height) {
+//   return width * height;
+// };
+
+// console.log(getRectArea(3, 4));
+
+// arrow expressions
+// const materials = ["Hydrogen", "Helium", "Lithium", "Beryllium"];
+
+// console.log(materials.map((material) => material.length));

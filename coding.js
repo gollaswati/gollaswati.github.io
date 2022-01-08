@@ -72,7 +72,7 @@
 
 // console.log(String(23), 23);
 
-//type of coersion
+// //type of coersion
 // console.log("im " + "swathi " - 23 + "old");
 // console.log("29" + "10" + 9);
 // console.log("29" - "10" + 9);
