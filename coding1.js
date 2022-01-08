@@ -70,3 +70,15 @@
 // const materials = ["Hydrogen", "Helium", "Lithium", "Beryllium"];
 
 // console.log(materials.map((material) => material.length));
+
+const calcage2 = function (birthyear) {
+  return 2037 - birthyear;
+};
+
+// arrow
+
+const calcage3 = (birthyear) => 2037 - birthyear;
+
+const age3 = calcage3(1991);
+
+console.log(age3);
