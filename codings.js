@@ -56,30 +56,30 @@
 
 // swithch statement
 
-const day = "monday";
+// const day = "monday";
 
-switch (day) {
-  case "monday":
-    console.log("plan course structure");
-    console.log("go to coding meet up");
-    break;
-  case "tuesday":
-    console.log("go to coding meet ");
-    break;
-  case "wendsday":
-  case "thursday":
-    console.log("go coding meet up");
-    break;
-  case "friday":
-    console.log("go tomeet up");
-    break;
-  case "saturday":
-  case "sunday":
-    console.log("go to codingup");
-    break;
-  default:
-    console.log("invalid day");
-}
+// switch (day) {
+//   case "monday":
+//     console.log("plan course structure");
+//     console.log("go to coding meet up");
+//     break;
+//   case "tuesday":
+//     console.log("go to coding meet ");
+//     break;
+//   case "wendsday":
+//   case "thursday":
+//     console.log("go coding meet up");
+//     break;
+//   case "friday":
+//     console.log("go tomeet up");
+//     break;
+//   case "saturday":
+//   case "sunday":
+//     console.log("go to codingup");
+//     break;
+//   default:
+//     console.log("invalid day");
+// }
 
 // if (day === "monday") {
 //   console.log("plan course structure");
@@ -111,21 +111,21 @@ switch (day) {
 
 //the condition oparator
 
-const age = 10;
+// const age = 10;
 
-age >= 18
-  ? console.log("my name is swathi")
-  : console.log("i like to drink water");
+// age >= 18
+//   ? console.log("my name is swathi")
+//   : console.log("i like to drink water");
 
-const age = 23;
+// const age = 23;
 
-age >= 18
-  ? console.log("my name is swathi")
-  : console.log("i like to drink water");
+// age >= 18
+//   ? console.log("my name is swathi")
+//   : console.log("i like to drink water");
 
-const drink = age >= 18 ? "wine" : "water";
+// const drink = age >= 18 ? "wine" : "water";
 
-console.log(drink);
+// console.log(drink);
 
 // let drink2;
 // if (age >= 18) {
