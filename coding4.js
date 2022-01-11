@@ -15,47 +15,47 @@
 // };
 
 //dots vs brackets
-const jons = {
-  firstname: "swathi",
-  lastname: "golla",
-  age: 1999 - 1980,
-  job: "teaches",
-  friends: ["swathi", "vyshu", "gayi"],
-};
+// const jons = {
+//   firstname: "swathi",
+//   lastname: "golla",
+//   age: 1999 - 1980,
+//   job: "teaches",
+//   friends: ["swathi", "vyshu", "gayi"],
+// };
 
-console.log(jons);
+// console.log(jons);
 
-console.log(jons.firstname);
+// console.log(jons.firstname);
 
-console.log(jons[`firstname`]);
+// console.log(jons[`firstname`]);
 
-const namekey = "name";
+// const namekey = "name";
 
-console.log(jons[`first` + namekey]);
-console.log(jons[`last` + namekey]);
+// console.log(jons[`first` + namekey]);
+// console.log(jons[`last` + namekey]);
 
-const interpreted = prompt(
-  "what do you want to no about jons firstname,lastname,job,year"
-);
+// const interpreted = prompt(
+//   "what do you want to no about jons firstname,lastname,job,year"
+// );
 
 // console.log(jons.promptinterpreted); //doest exit jons not a property
 // insted of dot notation we use braket
 // console.log(jons[interpreted]);
 
-if (jons[interpreted]) {
-  console.log(jons[interpreted]);
-} else {
-  console.log("wrong request");
-}
+// if (jons[interpreted]) {
+//   console.log(jons[interpreted]);
+// } else {
+//   console.log("wrong request");
+// }
 
-jons.location = "madhnapali";
+// jons.location = "madhnapali";
 
-jons["twitter"] = "@jonsmadhanapallli";
+// jons["twitter"] = "@jonsmadhanapallli";
 
-console.log(jons);
+// console.log(jons);
 // challenge
 // jons has three friend and best friend is swathi
 
-console.log(
-  `${jons.firstname} has ${jons.friends.length} and his best friend is ${jons.friends[0]}`
-);
+// console.log(
+//   `${jons.firstname} has ${jons.friends.length} and his best friend is ${jons.friends[0]}`
+// );

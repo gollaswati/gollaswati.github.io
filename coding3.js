@@ -1,4 +1,4 @@
-// // arrays
+// arrays
 // const friend1 = "swathi";
 // const friend2 = "vyshu";
 // const friend3 = "gayi";
