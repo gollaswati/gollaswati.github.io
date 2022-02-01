@@ -8,6 +8,7 @@
   --hover-width: 75%;
   --other-width: 25%;
 }
+/* test the root variables color chnage and browser support check - can i use */
 * {
   box-sizing: border-box;
 }
@@ -71,14 +72,14 @@ h1 {
 
 .split.left {
   left: 0;
-  background: url("ps.jpg");
+  background: url("/chair.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .split.right {
   right: 0;
-  background: url("xbox.jpg");
+  background: url("/chair.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
