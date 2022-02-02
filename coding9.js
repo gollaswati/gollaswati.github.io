@@ -48,23 +48,51 @@
 
 // // debugging
 
-// const measurekelvin = function () {
-//   const mesurement = {
-//     type: "temp",
-//     unit: "cels",
-//     // fix
-//     // value: Number(prompt("degree celciuous")),
-//     value: 10,
-//   };
-//   // find
-//   console.table(mesurement);
-//   // console.log(mesurement);
+const measurekelvin = function () {
+  const mesurement = {
+    type: "temp",
+    unit: "cels",
+    // fix
+    // value: Number(prompt("degree celciuous")),
+    value: 10,
+  };
+  // find
+  console.table(mesurement);
+  // console.log(mesurement);
 
-//   // console.log(mesurement.value);
-//   // console.warn(mesurement.value);
-//   // console.error(mesurement.value);
-//   const kelvin = mesurement.value + 273;
-//   return kelvin;
-// };
-// // identify
-// console.log(measurekelvin());
+  // console.log(mesurement.value);
+  // console.warn(mesurement.value);
+  // console.error(mesurement.value);
+  const kelvin = mesurement.value + 273;
+  return kelvin;
+};
+// identify
+console.log(measurekelvin());
+
+// const apptitude = calcTempAmplitude(temparature);
+// console.log(apptitude);
+// // max=3
+//max=7
+//max=32
+const calcTempAmplitudebug = function (t1, t2) {
+  const temps = t1.concat(t2);
+  console.log(temps);
+  // let max = temps[0];
+  // let min = temps[0];
+  let max = 0;
+  let min = 0;
+  for (let i = 0; i <= temps.length; i++) {
+    const curtemp = temps[i];
+    if (typeof curtemp !== "number") continue;
+    if (temps[i] > max) max = curtemp;
+    if (temps[i] < min) min = curtemp;
+  }
+  // console.log(max);
+  // console.log(min);
+  console.log(max, min);
+  return max - min;
+};
+// calcTempAmplitude([3, 7, 4, 32]);
+const apptitudebug = calcTempAmplitudebug([1, 3, 5], [4, 6, 7]);
+// identify bug here
+console.log(apptitudebug);
