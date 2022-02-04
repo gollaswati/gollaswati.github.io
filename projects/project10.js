@@ -13,6 +13,7 @@ async function getJokes() {
   };
 
   const res = await fetch("https://icanhazdadjoke.com/", config);
+  // console.log(res);
   const data = await res.json();
   joke.innerText = data.joke;
 }
