@@ -9,9 +9,6 @@ window.addEventListener("DOMContentLoaded", function () {
   b = document.getElementById("btn");
 
   b.addEventListener("click", function () {
-    // You need to add your logic for determining which
-    // child element needs to be removed here. I'm just
-    // showing the actual code to remove the element.
     text.addChild();
   });
 });
