@@ -18,18 +18,12 @@ body {
 .str {
   word-spacing: 10px;
 }
-.calc1 {
+#calc1 {
   padding: 12px;
   margin-bottom: 20px;
 }
-.calc2 {
+#calc2 {
   padding: 12px;
   margin-bottom: 20px;
   margin-top: 10px;
-}
-.btn {
-  padding: 10px;
-}
-.p1 {
-  display: none;
 }
