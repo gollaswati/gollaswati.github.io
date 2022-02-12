@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <body style="text-align: center">
-    <input id="text" />
-    <button id="btns">add</button>
-    <input type="button" id="btn" value="add" />
-    <!-- <p>char Count:<span id="char">0</span></p>
-    <p>space Count:<span id="spce">0</span></p> -->
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div id="myDIV" class="header">
+      <h2 style="margin: 5px">To Do List</h2>
+      <input type="text" id="myInput" placeholder="Title..." />
+      <button onclick="newElement()" class="addBtn">Add</button>
+    </div>
+
+    <ul id="myUL"></ul>
+
     <script src="./task4.js"></script>
   </body>
 </html>

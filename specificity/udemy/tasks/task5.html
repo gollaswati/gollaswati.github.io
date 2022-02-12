@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <input id="demo" />
+    <p id="demo1">age in minutes</p>
+    <p id="demo2">age in seconds</p>
+    <button onclick="mydate()">find</button>
+    <script>
+      function mydate() {
+        const s = new Date();
+        let time = s.getTime();
+        document.getElementById("demo").innerHTML = time;
+        const m = new Date();
+        document.getElementById("demo1").innerHTML = m.getMinutes();
+        const p = new Date();
+        document.getElementById("demos2").innerHTML = p.getSeconds();
+      }
+    </script>
+  </body>
+</html>

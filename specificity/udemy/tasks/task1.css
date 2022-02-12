@@ -27,3 +27,7 @@ body {
   margin-bottom: 20px;
   margin-top: 10px;
 }
+#result {
+  padding: 12px;
+  margin-top: 20px;
+}
