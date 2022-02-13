@@ -1,30 +1,19 @@
 function result() {
-  function add() {
-    var numOne, numTwo, sum;
-    numOne = parseInt(document.getElementById("calc1").value);
-    numTwo = parseInt(document.getElementById("calc2").value);
-    sum = numOne + numTwo;
-    document.getElementById("answer").value = sum;
+  var x = Number(document.getElementById("calc1").value);
+  var y = Number(document.getElementById("calc2").value);
+  var z = 0;
+
+  // addition, Subtraction, Multiplication, Division
+
+  if (document.getElementById("add").checked) {
+    z = x + y;
+  } else if (document.getElementById("sub").checked) {
+    z = x - y;
+  } else if (document.getElementById("mul").checked) {
+    z = x * y;
+  } else {
+    z = x / y;
   }
-  function sub() {
-    var numOne, numTwo, sum;
-    numOne = parseInt(document.getElementById("calc1").value);
-    numTwo = parseInt(document.getElementById("calc2").value);
-    sum = numOne - numTwo;
-    document.getElementById("answer").value = sum;
-  }
-  function mul() {
-    var numOne, numTwo, sum;
-    numOne = parseInt(document.getElementById("calc1").value);
-    numTwo = parseInt(document.getElementById("calc2").value);
-    sum = numOne * numTwo;
-    document.getElementById("answer").value = sum;
-  }
-  function div() {
-    var numOne, numTwo, sum;
-    numOne = parseInt(document.getElementById("calc1").value);
-    numTwo = parseInt(document.getElementById("calc2").value);
-    sum = numOne / numTwo;
-    document.getElementById("answer").value = sum;
-  }
+
+  document.getElementById("answer").innerText = "output is: " + z;
 }

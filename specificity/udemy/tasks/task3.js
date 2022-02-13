@@ -16,7 +16,6 @@ function word() {
     if (char[i] != " ") {
       count++;
     }
-    // count++;
   }
   document.getElementById("show1").innerText = count;
   var charlenght = document.getElementById("inputField").value.length;
@@ -26,7 +25,6 @@ function word() {
     if (char[i] == " ") {
       count++;
     }
-    // count++;
   }
   document.getElementById("show2").innerText = count;
 }
