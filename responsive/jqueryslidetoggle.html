@@ -5,7 +5,8 @@
     <script>
       $(document).ready(function () {
         $("#flip").click(function () {
-          $("#panel").slideToggle("slow");
+          $("#panel").slideUp("slow");
+          $(".parent:p:first").css("background-color", "red");
         });
       });
     </script>
@@ -28,6 +29,10 @@
     <div id="panel">
       Hello javatpoint.com! It is the best tutorial website to learn jQuery and
       other languages.
+    </div>
+    <div class="parent">
+      <p>sss</p>
+      <p>sss</p>
     </div>
   </body>
 </html>
