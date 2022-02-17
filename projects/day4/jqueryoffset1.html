@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The jQuery Example</title>
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"
+    ></script>
+    <script type="text/javascript" language="javascript">
+      $(document).ready(function () {
+        $("div").click(function () {
+          var offset = $(this).offset();
+          $("#lresult").html("left offset: <span>" + offset.left + "</span>.");
+          $("#tresult").html("top offset: <span>" + offset.top + "</span>.");
+        });
+      });
+    </script>
+    <style>
+      div {
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Click on any square:</p>
+    <span id="lresult"> </span>
+    <span id="tresult"> </span>
+    <div style="background-color: #7fffd4"></div>
+    <div style="background-color: #a52a2a"></div>
+    <div style="background-color: #7fff00"></div>
+    <div style="background-color: #ff1493"></div>
+    <div style="background-color: #ff14"></div>
+    <div style="background-color: #ff1"></div>
+    <div style="background-color: #ff1420"></div>
+    <div style="background-color: #7fff"></div>
+  </body>
+</html>
