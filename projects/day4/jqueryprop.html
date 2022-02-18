@@ -6,7 +6,7 @@
       $(document).ready(function () {
         $("button").click(function () {
           var $x = $("div");
-          $x.prop("color", "#e00");
+          $x.prop("position", "flex");
           $x.append("The value of the color property: " + $x.prop("color"));
           $x.removeProp("color");
           $x.append(

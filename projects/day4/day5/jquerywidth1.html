@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>width demo</title>
+    <style>
+      div {
+        width: 100px;
+        height: 80px;
+        float: left;
+        margin: 5px;
+        background: orange;
+        cursor: pointer;
+      }
+      .mod {
+        background: green;
+        cursor: default;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+    <div>D</div>
+    <div>E</div>
+    <script>
+      var modWidth = 70;
+      $("div").one("click", function () {
+        $(this).width(modWidth).addClass("mod");
+        modWidth -= 10;
+      });
+    </script>
+  </body>
+</html>

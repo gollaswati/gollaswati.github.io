@@ -5,14 +5,19 @@
     <script>
       $(document).ready(function () {
         $("button").click(function () {
-          $("<span>Hello javatpoint.com</span>").appendTo("p");
+          $("p").wrapAll("<div></div>");
         });
       });
     </script>
+    <style>
+      div {
+        background-color: pink;
+      }
+    </style>
   </head>
   <body>
-    <button>Add new content at the end of each p element</button>
-    <p>I am a new reader.</p>
-    <p>I am also a new reader.</p>
+    <p>Hello Guys!</p>
+    <p>This is javatpoint.com</p>
+    <button>Wrap a div element around all p elements</button>
   </body>
 </html>
