@@ -13,7 +13,7 @@
 //   });
 // }
 $(document).ready(function () {
-  $(".panel").click(function () {
-    $(".panel").toggle();
+  $(".active").click(function () {
+    $(".panel").addremove();
   });
 });
