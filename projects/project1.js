@@ -12,8 +12,15 @@
 //     panel.classList.remove("active");
 //   });
 // }
-$(document).ready(function () {
-  $(".panel").click(function () {
-    $(".active").toggle();
-  });
+// $(".panel").ready(function () {
+//   $(".panel").click(function () {
+//     $(".panel").toggle();
+//   });
+// });
+
+// jquery
+
+$(".panel").click(function () {
+  $(".panel").removeClass("active");
+  $(this).addClass("active");
 });
