@@ -79,7 +79,7 @@ $("#prev").click(function () {
     $("#prev").click(function () {
       $(".circle2").addClass("active");
       $(".progress").css("width", "0%");
-      $(".btn").removeAttr("disabled");
+      $(".btn").prop("disabled", true);
     });
   });
 });

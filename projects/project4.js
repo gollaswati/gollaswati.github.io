@@ -1,8 +1,12 @@
-const button = document.querySelector(".button");
-const input = document.querySelector(".input");
-const search = document.querySelector(".search");
+// const button = document.querySelector(".button");
+// const input = document.querySelector(".input");
+// const search = document.querySelector(".search");
 
-button.addEventListener("click", () => {
-  search.classList.toggle("active");
-  input.focus();
+// button.addEventListener("click", () => {
+//   search.classList.toggle("active");
+//   input.focus();
+// });
+
+$(".search").click(function () {
+  $(".search").addclass();
 });
