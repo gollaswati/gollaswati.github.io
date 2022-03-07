@@ -7,7 +7,12 @@
 //   input.focus();
 // });
 
-$(".search").click(function () {
+// jquery
+
+$(".button").click(function () {
   $(".search").addClass("active");
+});
+
+$(".input").click(function () {
   $(".search").removeClass("active");
 });
