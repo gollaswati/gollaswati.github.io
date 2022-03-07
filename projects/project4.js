@@ -8,5 +8,6 @@
 // });
 
 $(".search").click(function () {
-  $(".search").addclass();
+  $(".search").addClass("active");
+  $(".search").removeClass("active");
 });

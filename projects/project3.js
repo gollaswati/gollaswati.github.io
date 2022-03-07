@@ -5,6 +5,9 @@
 // open.addEventListener("click", () => container.classList.add("show-nav"));
 // close.addEventListener("click", () => container.classList.remove("show-nav"));
 
-$(".container").click(function () {
-  $(".container").addlass("show-nav");
+$("#open").click(function () {
+  $(".container").addClass("show-nav");
+});
+$("#close").click(function () {
+  $(".container").removeClass("show-nav");
 });
