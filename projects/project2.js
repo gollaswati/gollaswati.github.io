@@ -50,16 +50,16 @@
 // jquery second
 
 $("#next").click(function () {
-  $(".circle2").addClass("active");
+  $(".circle").addClass("active");
   $(".progress").css("width", "33.333%");
   $(".btn").removeAttr("disabled");
 
   $("#next").click(function () {
-    $(".circle3").addClass("active");
+    $(".circle").addClass("active");
     $(".progress").css("width", "66.6667%");
 
     $("#next").click(function () {
-      $(".circle4").addClass("active");
+      $(".circle").addClass("active");
       $(".progress").css("width", "100%");
       $(".hide").prop("disabled", true);
     });
@@ -67,17 +67,17 @@ $("#next").click(function () {
 });
 
 $("#prev").click(function () {
-  $(".circle4").addClass("active");
+  $(".circle").addClass("active");
   $(".progress").css("width", "66.667%");
   $(".hide1").prop("disabled", true);
   // $(".btn").removeAttr("disabled");
 
   $("#prev").click(function () {
-    $(".circle3").addClass("active");
+    $(".circle").addClass("active");
     $(".progress").css("width", "33.333%");
 
     $("#prev").click(function () {
-      $(".circle2").addClass("active");
+      $(".circle").addClass("active");
       $(".progress").css("width", "0%");
       $(".btn").prop("disabled", true);
     });
