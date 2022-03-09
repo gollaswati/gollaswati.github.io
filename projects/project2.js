@@ -50,16 +50,16 @@
 // jquery second
 
 $("#next").click(function () {
-  $(".circle").addClass("active");
+  $(".circle1").addClass("active");
   $(".progress").css("width", "33.333%");
   $(".btn").removeAttr("disabled");
 
   $("#next").click(function () {
-    $(".circle").addClass("active");
+    $(".circle2").addClass("active");
     $(".progress").css("width", "66.6667%");
 
     $("#next").click(function () {
-      $(".circle").addClass("active");
+      $(".circle3").addClass("active");
       $(".progress").css("width", "100%");
       $(".hide").prop("disabled", true);
     });
@@ -67,19 +67,18 @@ $("#next").click(function () {
 });
 
 $("#prev").click(function () {
-  $(".circle").addClass("active");
+  $(".circle3").addClass("active");
   $(".progress").css("width", "66.667%");
-  $(".hide1").prop("disabled", true);
-  // $(".btn").removeAttr("disabled");
+  $(".hide").removeAttr("disabled");
 
   $("#prev").click(function () {
-    $(".circle").addClass("active");
+    $(".circle2").addClass("active");
     $(".progress").css("width", "33.333%");
 
     $("#prev").click(function () {
-      $(".circle").addClass("active");
+      $(".circle1").addClass("active");
       $(".progress").css("width", "0%");
-      $(".btn").prop("disabled", true);
+      $(".hide1").prop("disabled", true);
     });
   });
 });

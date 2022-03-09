@@ -3,6 +3,7 @@ window.addEventListener("scroll", fixNav);
 
 function fixNav() {
   if (window.scrollY > nav.offsetHeight + 150) {
+    console.log(window.scrollY);
     nav.classList.add("active");
   } else {
     nav.classList.remove("active");
