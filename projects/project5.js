@@ -24,7 +24,7 @@
 
 $(document).keypress(function () {
   let load = 0;
-  let int = setInterval(blurring, 50);
+  let int = setInterval(blurring, 30);
 
   function blurring() {
     load++;
